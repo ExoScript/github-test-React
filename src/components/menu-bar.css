@@ -13,10 +13,10 @@
   display: flex;
   align-items: flex-start;
   border-radius: var(--dl-radius-radius-radius8);
-  background-color: #D9D9D9;
+  background-color: var(--dl-color-gray-white);
 }
 .menu-bar-image {
-  width: 200px;
+  width: 100%;
   object-fit: cover;
 }
 .menu-bar-container1 {
