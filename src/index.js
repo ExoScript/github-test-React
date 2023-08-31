@@ -18,8 +18,8 @@ const App = () => {
         <Route component={NotFound} path="**" />
         <Route component={Product} exact path="/product" />
         <Route component={ContactUs} exact path="/contact-us" />
-        <Route component={Home} exact path="/" />
-        <Route component={AboutUs} exact path="/about-us" />
+        <Route component={Home} exact path="/home" />
+        <Route component={AboutUs} exact path="/" />
         <Route component={ComponentsSandbox} exact path="/components-sandbox" />
         <Route component={PrivacyPolicy} exact path="/privacy-policy" />
       </div>

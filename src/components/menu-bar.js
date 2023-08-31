@@ -16,12 +16,12 @@ const MenuBar = (props) => {
         />
       </div>
       <div className="menu-bar-container1">
-        <Link to="/" className="menu-bar-navlink">
+        <Link to="/home" className="menu-bar-navlink">
           <div className="menu-bar-container2">
             <span>{props.text}</span>
           </div>
         </Link>
-        <Link to="/about-us" className="menu-bar-navlink1">
+        <Link to="/" className="menu-bar-navlink1">
           <div className="menu-bar-container3">
             <span>{props.text1}</span>
           </div>
