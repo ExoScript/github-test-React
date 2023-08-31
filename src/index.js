@@ -15,7 +15,6 @@ const App = () => {
   return (
     <Router>
       <div>
-        <Route component={NotFound} path="**" />
         <Route component={Product} exact path="/product" />
         <Route component={ContactUs} exact path="/contact-us" />
         <Route component={Home} exact path="/home" />
