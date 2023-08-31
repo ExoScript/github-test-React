@@ -1,0 +1,174 @@
+.campaign-performance-component-campaign-performance-component {
+  width: 100%;
+  cursor: pointer;
+  height: 50px;
+  display: flex;
+  position: relative;
+  transition: 0.1s;
+  align-items: flex-start;
+  padding-left: var(--dl-space-space-p20);
+  padding-right: var(--dl-space-space-p20);
+}
+.campaign-performance-component-campaign-performance-component:hover {
+  background-color: #F7F9FC;
+}
+.campaign-performance-component-container {
+  flex: 1;
+  width: 150px;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.campaign-performance-component-container01 {
+  flex: 0 0 auto;
+  width: 100px;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.campaign-performance-component-container02 {
+  color: var(--dl-color-gray-white);
+  width: 70px;
+  display: flex;
+  align-items: center;
+  padding-top: 2px;
+  padding-left: 10px;
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: 10px;
+  flex-direction: column;
+  padding-bottom: 2px;
+  justify-content: center;
+  background-color: #414652;
+}
+.campaign-performance-component-container03 {
+  color: var(--dl-color-gray-white);
+  width: 70px;
+  display: flex;
+  align-items: center;
+  padding-top: 2px;
+  padding-left: 10px;
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: 10px;
+  flex-direction: column;
+  padding-bottom: 2px;
+  justify-content: center;
+  background-color: var(--dl-color-primary-blue);
+}
+.campaign-performance-component-container04 {
+  flex: 0 0 auto;
+  width: 110px;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.campaign-performance-component-text03 {
+  color: var(--dl-color-primary-blue);
+}
+.campaign-performance-component-container05 {
+  gap: 5px;
+  flex: 0 0 auto;
+  width: 120px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.campaign-performance-component-text04 {
+  color: var(--dl-color-primary-blue);
+}
+.campaign-performance-component-container06 {
+  flex: 0 0 auto;
+  width: 1px;
+  height: 20px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #D9D9D9;
+}
+.campaign-performance-component-container07 {
+  flex: 0 0 auto;
+  width: 110px;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.campaign-performance-component-text06 {
+  color: var(--dl-color-primary-blue);
+}
+.campaign-performance-component-container08 {
+  gap: 5px;
+  flex: 0 0 auto;
+  width: 110px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.campaign-performance-component-text07 {
+  color: var(--dl-color-primary-blue);
+}
+.campaign-performance-component-container09 {
+  flex: 0 0 auto;
+  width: 1px;
+  height: 20px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #D9D9D9;
+}
+.campaign-performance-component-container10 {
+  flex: 0 0 auto;
+  width: 110px;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.campaign-performance-component-text09 {
+  color: var(--dl-color-primary-blue);
+}
+.campaign-performance-component-container11 {
+  gap: 10px;
+  flex: 0 0 auto;
+  width: 60px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.campaign-performance-component-container12 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.campaign-performance-component-icon {
+  fill: var(--dl-color-success-500);
+  width: 24px;
+  height: 24px;
+}
+.campaign-performance-component-icon2 {
+  width: 24px;
+  height: 24px;
+  opacity: 0.6;
+}
+.campaign-performance-component-icon4 {
+  width: 24px;
+  height: 24px;
+  opacity: 0.4;
+}
+@media(max-width: 1440px) {
+  .campaign-performance-component-campaign-performance-component {
+    border-radius: var(--dl-radius-radius-radius8);
+  }
+}

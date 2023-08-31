@@ -17,33 +17,35 @@ const MenuBar = (props) => {
       </div>
       <div className="menu-bar-container1">
         <Link to="/" className="menu-bar-navlink">
-          <div className="menu-bar-container2">
-            <span>{props.text}</span>
+          <div className="menu-bar-btn-enable">
+            <span className="text-2">{props.text}</span>
           </div>
         </Link>
         <Link to="/about-us" className="menu-bar-navlink1">
-          <div className="menu-bar-container3">
-            <span>{props.text1}</span>
+          <div className="menu-bar-btn-disable">
+            <span className="text-2">{props.text1}</span>
           </div>
         </Link>
-        <div className="menu-bar-container4">
-          <span>{props.text2}</span>
+        <div className="menu-bar-btn-disable">
+          <span className="text-2">{props.text2}</span>
         </div>
         <Link to="/product" className="menu-bar-navlink2">
-          <div className="menu-bar-container5">
-            <span>{props.text3}</span>
+          <div className="menu-bar-btn-disable">
+            <span className="text-2">{props.text3}</span>
           </div>
         </Link>
-        <div className="menu-bar-container6">
-          <span>{props.text4}</span>
+        <div className="menu-bar-btn-disable">
+          <span className="text-2">{props.text4}</span>
         </div>
-        <div className="menu-bar-container7">
-          <span>{props.text5}</span>
+        <div className="menu-bar-btn-disable">
+          <span className="text-2">{props.text5}</span>
         </div>
       </div>
-      <div className="menu-bar-container8">
-        <span className="menu-bar-text6">{props.text6}</span>
-      </div>
+      <Link to="/login" className="menu-bar-navlink3">
+        <div className="menu-bar-container8">
+          <span className="text-2">{props.text6}</span>
+        </div>
+      </Link>
     </div>
   )
 }

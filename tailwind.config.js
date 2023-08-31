@@ -9,7 +9,9 @@ module.exports = {
           "White": "#FFFFFF",
           "text": "#514565ff",
           "border": "#d6d0daff",
-          "Black": "#000000"
+          "Black": "#000000",
+          "border-2": "#d1ddf2ff",
+          "background": "#f7f9fcff"
         },
         "Success": {
           "300": "#199033",
@@ -23,7 +25,8 @@ module.exports = {
         },
         "Primary": {
           "Lila": "#6840a5ff",
-          "orange": "#f65814ff"
+          "orange": "#f65814ff",
+          "blue": "#0066fcff"
         },
         "foreground": "#514565ff",
         "background": "#FFFFFF"
