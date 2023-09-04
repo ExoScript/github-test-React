@@ -5,7 +5,6 @@ import { Helmet } from 'react-helmet'
 
 import MenuBar from '../components/menu-bar'
 import ContactUsMiniFormComponent from '../components/contact-us-mini-form-component'
-import DorpdownBoxComponent from '../components/dorpdown-box-component'
 import MenuBottomComponent from '../components/menu-bottom-component'
 import './about-us.css'
 
@@ -177,7 +176,6 @@ const AboutUs = (props) => {
                     </li>
                   </ul>
                 </div>
-                <DorpdownBoxComponent rootClassName="dorpdown-box-component-root-class-name1"></DorpdownBoxComponent>
               </div>
             </div>
           </div>

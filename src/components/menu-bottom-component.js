@@ -100,7 +100,7 @@ const MenuBottomComponent = (props) => {
                 {props.text4}
               </Link>
               <Link
-                to="/product-2"
+                to="/product-22"
                 className="menu-bottom-component-navlink3 text-2"
               >
                 {props.text5}

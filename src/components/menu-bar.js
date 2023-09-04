@@ -87,7 +87,7 @@ const MenuBar = (props) => {
                           </Link>
                         )}
                         {dropdown_menu === 2 && (
-                          <Link to="/product-2" className="menu-bar-navlink04">
+                          <Link to="/product-22" className="menu-bar-navlink04">
                             <div className="menu-bar-container08 dorpdown-menu-button-enable">
                               <span className="text-2">{props.text91}</span>
                               <span className="text-1">{props.text101}</span>
@@ -95,7 +95,7 @@ const MenuBar = (props) => {
                           </Link>
                         )}
                         {dropdown_menu === 1 && (
-                          <Link to="/product-2" className="menu-bar-navlink05">
+                          <Link to="/product-22" className="menu-bar-navlink05">
                             <div
                               onMouseEnter={() => setDropdown_menu(2)}
                               className="menu-bar-container09 dorpdown-menu-button-disable"
@@ -135,7 +135,7 @@ const MenuBar = (props) => {
                         <div className="menu-bar-container13">
                           <span className="ueberschrift-2">{props.text71}</span>
                           <span className="text-2">{props.text81}</span>
-                          <Link to="/product-2" className="menu-bar-navlink07">
+                          <Link to="/product-22" className="menu-bar-navlink07">
                             <div className="menu-bar-container14 button-lila box-shadow">
                               <span className="text-2">{props.text131}</span>
                               <svg
