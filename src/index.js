@@ -14,11 +14,13 @@ import Home from './views/home'
 import AboutUs from './views/about-us'
 import ComponentsSandbox from './views/components-sandbox'
 import PrivacyPolicy from './views/privacy-policy'
+import Product22 from './views/product-22'
 
 const App = () => {
   return (
     <Router>
       <div>
+        <Route component={NotFound} path="**" />
         <Route component={Product1} exact path="/product-1" />
         <Route component={Login} exact path="/login" />
         <Route component={ContactUs} exact path="/contact-us" />
@@ -29,6 +31,7 @@ const App = () => {
         <Route component={AboutUs} exact path="/about-us" />
         <Route component={ComponentsSandbox} exact path="/components-sandbox" />
         <Route component={PrivacyPolicy} exact path="/privacy-policy" />
+        <Route component={Product22} exact path="/product-22" />
       </div>
     </Router>
   )
