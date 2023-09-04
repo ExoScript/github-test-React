@@ -1,7 +1,9 @@
 import React from 'react'
 
+import { Player } from '@lottiefiles/react-lottie-player'
 import { Helmet } from 'react-helmet'
 
+import DorpdownBoxComponent from '../components/dorpdown-box-component'
 import './components-sandbox.css'
 
 const ComponentsSandbox = (props) => {
@@ -464,16 +466,18 @@ const ComponentsSandbox = (props) => {
           <div className="components-sandbox-container123">
             <div className="components-sandbox-container124">
               <div className="components-sandbox-container125"></div>
+              <span className="components-sandbox-text109">04</span>
             </div>
             <div className="components-sandbox-container126">
-              <span className="components-sandbox-text109">
+              <span className="components-sandbox-text110">
                 <span>Works with every</span>
                 <br></br>
+                <span>CRM</span>
               </span>
             </div>
             <div className="components-sandbox-container127"></div>
             <div className="components-sandbox-container128">
-              <span className="components-sandbox-text112">
+              <span className="components-sandbox-text114">
                 <span>It does not matter which CRM you use.</span>
                 <br></br>
                 <span>We will setup an automated channel</span>
@@ -483,24 +487,45 @@ const ComponentsSandbox = (props) => {
             </div>
           </div>
           <div className="components-sandbox-container129">
-            <div className="components-sandbox-container130"></div>
-            <div className="components-sandbox-container131">
-              <div className="components-sandbox-container132">
-                <div className="components-sandbox-container133">
-                  <span className="components-sandbox-text118">IT Support</span>
-                  <span className="components-sandbox-text119">
+            <div className="components-sandbox-container130">
+              <div className="components-sandbox-container131"></div>
+            </div>
+            <div className="components-sandbox-container132">
+              <span className="components-sandbox-text120">
+                <span>Works with every</span>
+                <br></br>
+              </span>
+            </div>
+            <div className="components-sandbox-container133"></div>
+            <div className="components-sandbox-container134">
+              <span className="components-sandbox-text123">
+                <span>It does not matter which CRM you use.</span>
+                <br></br>
+                <span>We will setup an automated channel</span>
+                <br></br>
+                <span>that brings leads into your system</span>
+              </span>
+            </div>
+          </div>
+          <div className="components-sandbox-container135">
+            <div className="components-sandbox-container136"></div>
+            <div className="components-sandbox-container137">
+              <div className="components-sandbox-container138">
+                <div className="components-sandbox-container139">
+                  <span className="components-sandbox-text129">IT Support</span>
+                  <span className="components-sandbox-text130">
                     June 9, 2022
                   </span>
                 </div>
-                <div className="components-sandbox-container134"></div>
+                <div className="components-sandbox-container140"></div>
               </div>
-              <div className="components-sandbox-container135">
-                <span className="components-sandbox-text120">
+              <div className="components-sandbox-container141">
+                <span className="components-sandbox-text131">
                   Being different in Sales is crucial for your success
                 </span>
               </div>
-              <div className="components-sandbox-container136">
-                <span className="components-sandbox-text121">Read More</span>
+              <div className="components-sandbox-container142">
+                <span className="components-sandbox-text132">Read More</span>
                 <svg
                   viewBox="0 0 1024 1024"
                   className="components-sandbox-icon24"
@@ -510,6 +535,57 @@ const ComponentsSandbox = (props) => {
               </div>
             </div>
           </div>
+        </div>
+        <div className="components-sandbox-container143">
+          <div className="components-sandbox-container144">
+            <Player
+              src="https://lottie.host/74f28f89-d3dc-4a7a-aee2-8afb193a6946/rXoA68opHK.json"
+              autoplay
+              speed="1"
+              background="transparent"
+              className="components-sandbox-lottie-node"
+            ></Player>
+          </div>
+        </div>
+        <div className="components-sandbox-dropdown">
+          <div className="components-sandbox-container145 box-shadow">
+            <div className="components-sandbox-container146">
+              <div className="components-sandbox-container147 gradient">
+                <span className="text-2">Product - 1</span>
+                <span className="text-1">Mail Outreach</span>
+              </div>
+              <div className="components-sandbox-container148">
+                <span className="text-2">Product - 2</span>
+                <span className="text-1">Nearbound</span>
+              </div>
+            </div>
+            <div className="components-sandbox-container149"></div>
+            <div className="components-sandbox-container150">
+              <span className="ueberschrift-2">
+                Outbound sales is incredible - we help you to scale it
+              </span>
+              <span className="text-2">
+                You need 3 things to scale - the right ICP, the right Buyer
+                Persona, and a System that automatically sends out Mail
+                Sequences to these people and continuously optimizes the
+                outreach
+              </span>
+              <div className="components-sandbox-container151">
+                <span className="components-sandbox-text139">
+                  Get more information
+                </span>
+                <svg
+                  viewBox="0 0 1024 1024"
+                  className="components-sandbox-icon26"
+                >
+                  <path d="M481.835 243.499l225.835 225.835h-494.336c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h494.336l-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l298.667-298.667c3.925-3.925 7.083-8.619 9.259-13.824 4.309-10.453 4.309-22.229 0-32.683-2.091-5.035-5.163-9.728-9.259-13.824l-298.667-298.667c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="components-sandbox-container152">
+          <DorpdownBoxComponent></DorpdownBoxComponent>
         </div>
       </div>
     </div>

@@ -1,4 +1,4 @@
-.privacy-policy-container {
+.imprint-container {
   gap: var(--dl-space-space-halfunit);
   width: 100%;
   display: flex;
@@ -8,7 +8,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.privacy-policy-container01 {
+.imprint-container01 {
   flex: 1;
   width: 100%;
   display: flex;
@@ -16,7 +16,7 @@
   align-items: center;
   flex-direction: column;
 }
-.privacy-policy-container02 {
+.imprint-container02 {
   color: var(--dl-color-gray-white);
   width: 100%;
   height: 430px;
@@ -27,7 +27,7 @@
   background-size: cover;
   background-image: url("/frame%20310-1500w.png");
 }
-.privacy-policy-container03 {
+.imprint-container03 {
   flex: 1;
   width: 100%;
   height: 0px;
@@ -37,7 +37,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.privacy-policy-container04 {
+.imprint-container04 {
   gap: 40px;
   width: 1360px;
   display: flex;
@@ -47,7 +47,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.privacy-policy-container05 {
+.imprint-container05 {
   gap: 30px;
   width: 100%;
   height: auto;
@@ -55,13 +55,13 @@
   align-items: center;
   flex-direction: column;
 }
-.privacy-policy-container06 {
+.imprint-container06 {
   gap: 20px;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-.privacy-policy-container07 {
+.imprint-container07 {
   color: var(--dl-color-gray-text);
   display: flex;
   opacity: 0.5;
@@ -75,13 +75,13 @@
   padding-bottom: 5px;
   background-color: var(--dl-color-gray-white);
 }
-.privacy-policy-text01 {
+.imprint-text01 {
   text-align: center;
 }
-.privacy-policy-text02 {
+.imprint-text02 {
   text-align: center;
 }
-.privacy-policy-container08 {
+.imprint-container08 {
   width: 100%;
   height: auto;
   display: flex;
@@ -90,7 +90,7 @@
   padding-bottom: 80px;
   justify-content: center;
 }
-.privacy-policy-container09 {
+.imprint-container09 {
   flex: 0 0 auto;
   width: 80%;
   border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -98,7 +98,7 @@
   display: flex;
   align-items: flex-start;
 }
-.privacy-policy-container10 {
+.imprint-container10 {
   width: 100%;
   height: 405px;
   display: flex;
@@ -107,7 +107,7 @@
   justify-content: center;
   background-image: url("/rectangle%20166-500h.png");
 }
-.privacy-policy-container11 {
+.imprint-container11 {
   flex: 0 0 auto;
   width: 80%;
   height: 310px;
@@ -115,7 +115,7 @@
   align-items: flex-start;
   flex-direction: row;
 }
-.privacy-policy-container12 {
+.imprint-container12 {
   gap: 20px;
   flex: 1;
   color: var(--dl-color-gray-white);
@@ -125,10 +125,10 @@
   flex-direction: column;
   justify-content: center;
 }
-.privacy-policy-text04 {
+.imprint-text04 {
   opacity: 0.8;
 }
-.privacy-policy-container13 {
+.imprint-container13 {
   gap: 30px;
   width: 526px;
   height: 100%;
@@ -137,7 +137,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.privacy-policy-container14 {
+.imprint-container14 {
   gap: 5px;
   flex: 0 0 auto;
   color: var(--dl-color-gray-white);
@@ -150,10 +150,10 @@
   justify-content: center;
   background-color: rgba(255, 255, 255, 0.23);
 }
-.privacy-policy-text08 {
+.imprint-text08 {
   opacity: 0.6;
 }
-.privacy-policy-container15 {
+.imprint-container15 {
   gap: 10px;
   flex: 0 0 auto;
   width: 100%;
@@ -165,30 +165,30 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.privacy-policy-text09 {
+.imprint-text09 {
   font-size: 18px;
   line-height: 22px;
 }
-.privacy-policy-icon {
+.imprint-icon {
   width: 24px;
   height: 24px;
 }
 @media(max-width: 1440px) {
-  .privacy-policy-container04 {
+  .imprint-container04 {
     width: 1110px;
     padding-left: 100px;
     padding-right: 100px;
   }
-  .privacy-policy-container05 {
+  .imprint-container05 {
     width: 891px;
   }
-  .privacy-policy-text01 {
+  .imprint-text01 {
     font-size: 30px;
     line-height: 45px;
   }
 }
 @media(max-width: 1280px) {
-  .privacy-policy-container05 {
+  .imprint-container05 {
     width: 530px;
   }
 }

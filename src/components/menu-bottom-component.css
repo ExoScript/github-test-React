@@ -47,9 +47,13 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
+.menu-bottom-component-navlink {
+  display: contents;
+}
 .menu-bottom-component-image {
   width: 100%;
   object-fit: cover;
+  text-decoration: none;
 }
 .menu-bottom-component-container05 {
   gap: 20px;
@@ -141,52 +145,40 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.menu-bottom-component-text06 {
+.menu-bottom-component-navlink1 {
   cursor: pointer;
   opacity: 0.4;
   transition: 0.1s;
+  text-decoration: none;
 }
-.menu-bottom-component-text06:hover {
+.menu-bottom-component-navlink1:hover {
   opacity: 1;
 }
-.menu-bottom-component-text07 {
+.menu-bottom-component-navlink2 {
   cursor: pointer;
   opacity: 0.4;
   transition: 0.1s;
+  text-decoration: none;
 }
-.menu-bottom-component-text07:hover {
+.menu-bottom-component-navlink2:hover {
   opacity: 1;
 }
-.menu-bottom-component-text08 {
+.menu-bottom-component-navlink3 {
   cursor: pointer;
   opacity: 0.4;
   transition: 0.1s;
+  text-decoration: none;
 }
-.menu-bottom-component-text08:hover {
+.menu-bottom-component-navlink3:hover {
   opacity: 1;
 }
-.menu-bottom-component-text09 {
+.menu-bottom-component-navlink4 {
   cursor: pointer;
   opacity: 0.4;
   transition: 0.1s;
+  text-decoration: none;
 }
-.menu-bottom-component-text09:hover {
-  opacity: 1;
-}
-.menu-bottom-component-text10 {
-  cursor: pointer;
-  opacity: 0.4;
-  transition: 0.1s;
-}
-.menu-bottom-component-text10:hover {
-  opacity: 1;
-}
-.menu-bottom-component-text11 {
-  cursor: pointer;
-  opacity: 0.4;
-  transition: 0.1s;
-}
-.menu-bottom-component-text11:hover {
+.menu-bottom-component-navlink4:hover {
   opacity: 1;
 }
 .menu-bottom-component-container13 {
@@ -198,52 +190,31 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.menu-bottom-component-text13 {
+.menu-bottom-component-navlink5 {
   cursor: pointer;
   opacity: 0.4;
   transition: 0.1s;
+  text-decoration: none;
 }
-.menu-bottom-component-text13:hover {
+.menu-bottom-component-navlink5:hover {
   opacity: 1;
 }
-.menu-bottom-component-text14 {
+.menu-bottom-component-navlink6 {
   cursor: pointer;
   opacity: 0.4;
   transition: 0.1s;
+  text-decoration: none;
 }
-.menu-bottom-component-text14:hover {
+.menu-bottom-component-navlink6:hover {
   opacity: 1;
 }
-.menu-bottom-component-text15 {
+.menu-bottom-component-navlink7 {
   cursor: pointer;
   opacity: 0.4;
   transition: 0.1s;
+  text-decoration: none;
 }
-.menu-bottom-component-text15:hover {
-  opacity: 1;
-}
-.menu-bottom-component-text16 {
-  cursor: pointer;
-  opacity: 0.4;
-  transition: 0.1s;
-}
-.menu-bottom-component-text16:hover {
-  opacity: 1;
-}
-.menu-bottom-component-text17 {
-  cursor: pointer;
-  opacity: 0.4;
-  transition: 0.1s;
-}
-.menu-bottom-component-text17:hover {
-  opacity: 1;
-}
-.menu-bottom-component-text18 {
-  cursor: pointer;
-  opacity: 0.4;
-  transition: 0.1s;
-}
-.menu-bottom-component-text18:hover {
+.menu-bottom-component-navlink7:hover {
   opacity: 1;
 }
 .menu-bottom-component-container14 {
@@ -274,6 +245,8 @@
   flex-direction: column;
   justify-content: center;
 }
+
+
 
 
 

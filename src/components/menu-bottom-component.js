@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import PropTypes from 'prop-types'
 
@@ -14,11 +15,13 @@ const MenuBottomComponent = (props) => {
           <div className="menu-bottom-component-container02">
             <div className="menu-bottom-component-container03">
               <div className="menu-bottom-component-container04">
-                <img
-                  alt={props.image_alt}
-                  src={props.image_src}
-                  className="menu-bottom-component-image"
-                />
+                <Link to="/" className="menu-bottom-component-navlink">
+                  <img
+                    alt={props.image_alt}
+                    src={props.image_src}
+                    className="menu-bottom-component-image"
+                  />
+                </Link>
               </div>
               <span className="text-2">
                 <span className="">Drive Sales by thinking</span>
@@ -87,45 +90,48 @@ const MenuBottomComponent = (props) => {
           <div className="menu-bottom-component-container11">
             <div className="menu-bottom-component-container12">
               <span className="ueberschrift-2">{props.text2}</span>
-              <span className="menu-bottom-component-text06 text-2">
+              <Link to="/" className="menu-bottom-component-navlink1 text-2">
                 {props.text3}
-              </span>
-              <span className="menu-bottom-component-text07 text-2">
+              </Link>
+              <Link
+                to="/product-1"
+                className="menu-bottom-component-navlink2 text-2"
+              >
                 {props.text4}
-              </span>
-              <span className="menu-bottom-component-text08 text-2">
+              </Link>
+              <Link
+                to="/product-2"
+                className="menu-bottom-component-navlink3 text-2"
+              >
                 {props.text5}
-              </span>
-              <span className="menu-bottom-component-text09 text-2">
+              </Link>
+              <Link
+                to="/about-us"
+                className="menu-bottom-component-navlink4 text-2"
+              >
                 {props.text6}
-              </span>
-              <span className="menu-bottom-component-text10 text-2">
-                {props.text7}
-              </span>
-              <span className="menu-bottom-component-text11 text-2">
-                {props.text8}
-              </span>
+              </Link>
             </div>
             <div className="menu-bottom-component-container13">
               <span className="ueberschrift-2">{props.text9}</span>
-              <span className="menu-bottom-component-text13 text-2">
-                {props.text10}
-              </span>
-              <span className="menu-bottom-component-text14 text-2">
+              <Link
+                to="/contact-us"
+                className="menu-bottom-component-navlink5 text-2"
+              >
                 {props.text11}
-              </span>
-              <span className="menu-bottom-component-text15 text-2">
+              </Link>
+              <Link
+                to="/privacy-policy"
+                className="menu-bottom-component-navlink6 text-2"
+              >
                 {props.text12}
-              </span>
-              <span className="menu-bottom-component-text16 text-2">
+              </Link>
+              <Link
+                to="/imprint"
+                className="menu-bottom-component-navlink7 text-2"
+              >
                 {props.text13}
-              </span>
-              <span className="menu-bottom-component-text17 text-2">
-                {props.text14}
-              </span>
-              <span className="menu-bottom-component-text18 text-2">
-                {props.text15}
-              </span>
+              </Link>
             </div>
             <div className="menu-bottom-component-container14">
               <span className="ueberschrift-2">{props.text16}</span>
@@ -154,24 +160,21 @@ const MenuBottomComponent = (props) => {
 }
 
 MenuBottomComponent.defaultProps = {
-  text5: 'Service',
+  text5: 'Product - 2',
   text9: 'SUPPORT',
   text3: 'Home',
   text15: 'Partners',
-  text6: 'Product',
-  text4: 'About Us',
+  text6: 'About us',
+  text4: 'Product - 1',
   text14: 'Refund Policy',
   rootClassName: '',
-  text12: 'Careers',
+  text12: 'Privacy Policy',
   image_alt: 'image',
-  text13: 'Terms Of Service',
+  text13: 'Imprint',
   text16: 'Contact info',
-  text10: 'Help',
   text17: 'Up2Data@example.com',
   text: '© 2023 Up2Data. All Rights Reserved',
-  text8: 'Resources',
   text2: 'EXPLORE',
-  text7: 'Pricing',
   text1: 'FOLLOW US',
   image_src: '/up2datalogo%20(3)1-200h.png',
   text11: 'Contact Us',
@@ -190,12 +193,9 @@ MenuBottomComponent.propTypes = {
   image_alt: PropTypes.string,
   text13: PropTypes.string,
   text16: PropTypes.string,
-  text10: PropTypes.string,
   text17: PropTypes.string,
   text: PropTypes.string,
-  text8: PropTypes.string,
   text2: PropTypes.string,
-  text7: PropTypes.string,
   text1: PropTypes.string,
   image_src: PropTypes.string,
   text11: PropTypes.string,

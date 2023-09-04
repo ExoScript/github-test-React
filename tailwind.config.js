@@ -6,12 +6,12 @@ module.exports = {
           "500": "#595959",
           "700": "#999999",
           "900": "#D9D9D9",
+          "background": "#f7f9fcff",
           "White": "#FFFFFF",
           "text": "#514565ff",
           "border": "#d6d0daff",
           "Black": "#000000",
-          "border-2": "#d1ddf2ff",
-          "background": "#f7f9fcff"
+          "border-2": "#d1ddf2ff"
         },
         "Success": {
           "300": "#199033",
