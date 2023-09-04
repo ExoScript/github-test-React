@@ -19,7 +19,6 @@ const App = () => {
   return (
     <Router>
       <div>
-        <Route component={NotFound} path="**" />
         <Route component={Product1} exact path="/product-1" />
         <Route component={Login} exact path="/login" />
         <Route component={ContactUs} exact path="/contact-us" />
