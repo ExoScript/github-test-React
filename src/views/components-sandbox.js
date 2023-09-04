@@ -540,8 +540,8 @@ const ComponentsSandbox = (props) => {
           <div className="components-sandbox-container144">
             <Player
               src="https://lottie.host/74f28f89-d3dc-4a7a-aee2-8afb193a6946/rXoA68opHK.json"
-              autoplay
               speed="1"
+              autoplay
               background="transparent"
               className="components-sandbox-lottie-node"
             ></Player>

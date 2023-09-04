@@ -283,6 +283,12 @@
   align-items: flex-start;
   flex-direction: column;
 }
+.home-navlink {
+  display: contents;
+}
+.home-button-blue {
+  text-decoration: none;
+}
 .home-icon04 {
   width: 18px;
   height: 18px;
@@ -998,6 +1004,12 @@
   width: 100%;
   height: 100%;
 }
+.home-navlink1 {
+  display: contents;
+}
+.home-button-blue1 {
+  text-decoration: none;
+}
 .home-icon18 {
   width: 18px;
   height: 18px;
@@ -1243,6 +1255,7 @@
   width: 100%;
   height: auto;
   display: flex;
+  align-items: center;
   flex-direction: row;
 }
 .home-container118 {
@@ -1272,6 +1285,12 @@
   align-items: flex-end;
   flex-direction: column;
   justify-content: center;
+}
+.home-navlink2 {
+  display: contents;
+}
+.home-button-blue2 {
+  text-decoration: none;
 }
 .home-icon20 {
   width: 18px;

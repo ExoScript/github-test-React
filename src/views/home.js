@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import { Player } from '@lottiefiles/react-lottie-player'
 import { Helmet } from 'react-helmet'
@@ -110,12 +111,14 @@ const Home = (props) => {
                   </div>
                 </div>
               </div>
-              <div className="button-blue">
-                <span className="text-1">Get Started</span>
-                <svg viewBox="0 0 1024 1024" className="home-icon04">
-                  <path d="M481.835 243.499l225.835 225.835h-494.336c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h494.336l-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l298.667-298.667c3.925-3.925 7.083-8.619 9.259-13.824 4.309-10.453 4.309-22.229 0-32.683-2.091-5.035-5.163-9.728-9.259-13.824l-298.667-298.667c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path>
-                </svg>
-              </div>
+              <Link to="/contact-us" className="home-navlink">
+                <div className="home-button-blue button-blue">
+                  <span className="text-1">Get Started</span>
+                  <svg viewBox="0 0 1024 1024" className="home-icon04">
+                    <path d="M481.835 243.499l225.835 225.835h-494.336c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h494.336l-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l298.667-298.667c3.925-3.925 7.083-8.619 9.259-13.824 4.309-10.453 4.309-22.229 0-32.683-2.091-5.035-5.163-9.728-9.259-13.824l-298.667-298.667c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path>
+                  </svg>
+                </div>
+              </Link>
             </div>
           </div>
         </div>
@@ -152,8 +155,8 @@ const Home = (props) => {
                   <div className="home-container033">
                     <Player
                       src="https://lottie.host/74f28f89-d3dc-4a7a-aee2-8afb193a6946/rXoA68opHK.json"
-                      autoplay
                       speed="1"
+                      autoplay
                       background="transparent"
                       className="home-lottie-node"
                     ></Player>
@@ -180,10 +183,10 @@ const Home = (props) => {
                 <div className="home-container038">
                   <Player
                     src="https://lottie.host/71ed10da-8877-4337-a4ee-b7fb297a2996/X6gtxb1udb.json"
-                    autoplay
-                    speed="1"
-                    background="transparent"
                     loop
+                    speed="1"
+                    autoplay
+                    background="transparent"
                     className="home-lottie-node1"
                   ></Player>
                 </div>
@@ -192,7 +195,7 @@ const Home = (props) => {
                   <br></br>
                   <span>every week</span>
                 </span>
-                <span className="home-text043 text-1 text-2">
+                <span className="home-text043 text-2 text-1">
                   <span>We help analysing your current </span>
                   <span>customer base for potential new deals </span>
                   <span>via nearbound sales</span>
@@ -500,12 +503,14 @@ const Home = (props) => {
                   </span>
                 </div>
               </div>
-              <div className="button-blue">
-                <span className="text-1">Get Started</span>
-                <svg viewBox="0 0 1024 1024" className="home-icon18">
-                  <path d="M481.835 243.499l225.835 225.835h-494.336c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h494.336l-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l298.667-298.667c3.925-3.925 7.083-8.619 9.259-13.824 4.309-10.453 4.309-22.229 0-32.683-2.091-5.035-5.163-9.728-9.259-13.824l-298.667-298.667c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path>
-                </svg>
-              </div>
+              <Link to="/contact-us" className="home-navlink1">
+                <div className="home-button-blue1 button-blue">
+                  <span className="text-1">Get Started</span>
+                  <svg viewBox="0 0 1024 1024" className="home-icon18">
+                    <path d="M481.835 243.499l225.835 225.835h-494.336c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h494.336l-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l298.667-298.667c3.925-3.925 7.083-8.619 9.259-13.824 4.309-10.453 4.309-22.229 0-32.683-2.091-5.035-5.163-9.728-9.259-13.824l-298.667-298.667c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path>
+                  </svg>
+                </div>
+              </Link>
             </div>
             <div className="home-container094">
               <img alt="image" src="/img_2.svg" className="home-image2" />
@@ -600,12 +605,14 @@ const Home = (props) => {
                 </div>
               </div>
               <div className="home-container120">
-                <div className="button-blue">
-                  <span className="text-1">Get Started</span>
-                  <svg viewBox="0 0 1024 1024" className="home-icon20">
-                    <path d="M481.835 243.499l225.835 225.835h-494.336c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h494.336l-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l298.667-298.667c3.925-3.925 7.083-8.619 9.259-13.824 4.309-10.453 4.309-22.229 0-32.683-2.091-5.035-5.163-9.728-9.259-13.824l-298.667-298.667c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path>
-                  </svg>
-                </div>
+                <Link to="/contact-us" className="home-navlink2">
+                  <div className="home-button-blue2 button-blue">
+                    <span className="text-1">Get Started</span>
+                    <svg viewBox="0 0 1024 1024" className="home-icon20">
+                      <path d="M481.835 243.499l225.835 225.835h-494.336c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h494.336l-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l298.667-298.667c3.925-3.925 7.083-8.619 9.259-13.824 4.309-10.453 4.309-22.229 0-32.683-2.091-5.035-5.163-9.728-9.259-13.824l-298.667-298.667c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path>
+                    </svg>
+                  </div>
+                </Link>
               </div>
             </div>
             <div className="home-container121">

@@ -36,13 +36,54 @@ const Imprint = (props) => {
           </div>
         </div>
         <div className="imprint-container08">
-          <div className="imprint-container09"></div>
+          <div className="imprint-container09">
+            <span className="imprint-text03 titel-1">Impressum</span>
+            <span className="imprint-text04 ueberschrift-1">
+              Angaben gemäß § 5 TMG
+            </span>
+            <span className="imprint-text05">
+              <span>Firma A</span>
+              <br></br>
+              <span>Strasse A</span>
+              <br></br>
+              <span>c/o A</span>
+              <br></br>
+              <span>12345 Stadt A</span>
+            </span>
+            <span className="imprint-text13">
+              <span>Handelsregister: [Nummer des Registereintrags]</span>
+              <br></br>
+              <span>Registergericht: [Name des Registergerichts]</span>
+            </span>
+            <span className="imprint-text17">
+              <span className="imprint-text18">Vertreten durch:</span>
+              <br></br>
+              <span>Vorname Nachname</span>
+            </span>
+            <span className="imprint-text21 ueberschrift-2">Kontakt</span>
+            <span className="imprint-text22">
+              <span>Telefon: [Telefonnummer]</span>
+              <br></br>
+              <span>E-Mail: info@email.de</span>
+            </span>
+            <span className="imprint-text26 ueberschrift-1">
+              Verbraucherstreitbeilegung/Universalschlichtungsstelle
+            </span>
+            <span className="imprint-text27">
+              <span>
+                Wir sind nicht bereit oder verpflichtet, an
+                Streitbeilegungsverfahren vor einer
+              </span>
+              <br></br>
+              <span>Verbraucherschlichtungsstelle teilzunehmen.</span>
+            </span>
+          </div>
         </div>
         <div className="imprint-container10">
           <div className="imprint-container11">
             <div className="imprint-container12">
               <span className="titel-2">Subscribe Our Newsletter</span>
-              <span className="imprint-text04 text-1">
+              <span className="imprint-text32 text-1">
                 <span>
                   Enter your details to get business inspiration, trending
                   solutions,
@@ -53,10 +94,10 @@ const Imprint = (props) => {
             </div>
             <div className="imprint-container13">
               <div className="imprint-container14">
-                <span className="imprint-text08">Enter your email</span>
+                <span className="imprint-text36">Enter your email</span>
               </div>
               <div className="imprint-container15">
-                <span className="imprint-text09">Subscribe</span>
+                <span className="imprint-text37">Subscribe</span>
                 <svg viewBox="0 0 1024 1024" className="imprint-icon">
                   <path d="M481.835 243.499l225.835 225.835h-494.336c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h494.336l-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l298.667-298.667c3.925-3.925 7.083-8.619 9.259-13.824 4.309-10.453 4.309-22.229 0-32.683-2.091-5.035-5.163-9.728-9.259-13.824l-298.667-298.667c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path>
                 </svg>

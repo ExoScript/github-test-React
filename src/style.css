@@ -344,9 +344,6 @@
 .button-blue:hover {
   opacity: 0.7;
 }
-.button-blue:hover {
-  opacity: 0.7;
-}
 .tool-box {
   gap: 20px;
   flex: 1;

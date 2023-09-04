@@ -86,31 +86,65 @@
   height: auto;
   display: flex;
   align-items: center;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: var(--dl-space-space-p60);
+  padding-bottom: var(--dl-space-space-p60);
   justify-content: center;
 }
 .imprint-container09 {
+  gap: 30px;
   flex: 0 0 auto;
   width: 80%;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  height: 612px;
+  height: 100%;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.imprint-text03 {
+  text-align: center;
+}
+.imprint-text04 {
+  text-align: center;
+}
+.imprint-text05 {
+  text-align: center;
+}
+.imprint-text13 {
+  text-align: center;
+}
+.imprint-text17 {
+  text-align: center;
+}
+.imprint-text18 {
+  font-style: normal;
+  font-weight: 700;
+}
+.imprint-text21 {
+  text-align: center;
+}
+.imprint-text22 {
+  text-align: center;
+}
+.imprint-text26 {
+  text-align: center;
+}
+.imprint-text27 {
+  text-align: center;
 }
 .imprint-container10 {
   width: 100%;
-  height: 405px;
+  height: auto;
   display: flex;
   align-items: center;
+  padding-top: var(--dl-space-space-p40);
+  padding-bottom: var(--dl-space-space-p40);
   background-size: cover;
   justify-content: center;
-  background-image: url("/rectangle%20166-500h.png");
+  background-image: url("/rectangle%20166-1500w.png");
 }
 .imprint-container11 {
   flex: 0 0 auto;
   width: 80%;
-  height: 310px;
+  height: 100%;
   display: flex;
   align-items: flex-start;
   flex-direction: row;
@@ -125,11 +159,11 @@
   flex-direction: column;
   justify-content: center;
 }
-.imprint-text04 {
+.imprint-text32 {
   opacity: 0.8;
 }
 .imprint-container13 {
-  gap: 30px;
+  gap: 10px;
   width: 526px;
   height: 100%;
   display: flex;
@@ -142,7 +176,7 @@
   flex: 0 0 auto;
   color: var(--dl-color-gray-white);
   width: 100%;
-  height: 70px;
+  height: 45px;
   display: flex;
   align-items: center;
   border-radius: 35px;
@@ -150,14 +184,14 @@
   justify-content: center;
   background-color: rgba(255, 255, 255, 0.23);
 }
-.imprint-text08 {
+.imprint-text36 {
   opacity: 0.6;
 }
 .imprint-container15 {
   gap: 10px;
   flex: 0 0 auto;
   width: 100%;
-  height: 70px;
+  height: 45px;
   display: flex;
   align-items: center;
   border-radius: 35px;
@@ -165,7 +199,7 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.imprint-text09 {
+.imprint-text37 {
   font-size: 18px;
   line-height: 22px;
 }
