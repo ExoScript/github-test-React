@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 import './style.css'
 import NotFound from './views/not-found'
-import Product1 from './views/product-1'
+import MailCloud from './views/mail-cloud'
 import Login from './views/login'
 import ContactUs from './views/contact-us'
 import Dashboard from './views/dashboard'
@@ -13,14 +13,14 @@ import Home from './views/home'
 import AboutUs from './views/about-us'
 import ComponentsSandbox from './views/components-sandbox'
 import PrivacyPolicy from './views/privacy-policy'
-import Product2 from './views/product-2'
+import NearCloud from './views/near-cloud'
 
 const App = () => {
   return (
     <Router>
       <div>
         <Route component={NotFound} path="**" />
-        <Route component={Product1} exact path="/product-1" />
+        <Route component={MailCloud} exact path="/mail-cloud" />
         <Route component={Login} exact path="/login" />
         <Route component={ContactUs} exact path="/contact-us" />
         <Route component={Dashboard} exact path="/dashboard" />
@@ -29,7 +29,7 @@ const App = () => {
         <Route component={AboutUs} exact path="/about-us" />
         <Route component={ComponentsSandbox} exact path="/components-sandbox" />
         <Route component={PrivacyPolicy} exact path="/privacy-policy" />
-        <Route component={Product2} exact path="/product-2" />
+        <Route component={NearCloud} exact path="/near-cloud" />
       </div>
     </Router>
   )

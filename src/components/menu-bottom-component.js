@@ -94,13 +94,13 @@ const MenuBottomComponent = (props) => {
                 {props.text3}
               </Link>
               <Link
-                to="/product-1"
+                to="/mail-cloud"
                 className="menu-bottom-component-navlink2 text-2"
               >
                 {props.text4}
               </Link>
               <Link
-                to="/product-2"
+                to="/near-cloud"
                 className="menu-bottom-component-navlink3 text-2"
               >
                 {props.text5}
