@@ -25,15 +25,13 @@
   align-items: center;
   flex-direction: column;
   background-size: cover;
-  background-image: url("/frame%20310-1500w.png");
+  background-image: url("/bg/img_9.svg");
 }
 .contact-us-container03 {
   flex: 1;
   width: 100%;
-  height: 0px;
   display: flex;
   align-items: center;
-  padding-left: var(--dl-space-space-p60);
   flex-direction: row;
   justify-content: center;
 }
@@ -64,7 +62,6 @@
 .contact-us-container07 {
   color: var(--dl-color-gray-text);
   display: flex;
-  opacity: 0.5;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
   align-items: flex-start;
   padding-top: 5px;
@@ -73,7 +70,11 @@
   padding-right: 15px;
   flex-direction: column;
   padding-bottom: 5px;
-  background-color: var(--dl-color-gray-white);
+  background-image: linear-gradient(315deg, rgba(255, 255, 255, 0.5) 0.00%,rgb(255, 255, 255) 99.00%);
+}
+.contact-us-text {
+  font-style: normal;
+  font-weight: 600;
 }
 .contact-us-text01 {
   text-align: center;
@@ -142,7 +143,7 @@
 .contact-us-container10 {
   flex: 0 0 auto;
   width: 100%;
-  height: 40px;
+  height: 20px;
   display: flex;
   box-shadow: 0px -5px 10px 0px rgba(66, 66, 66, 0.3);
   align-items: flex-start;

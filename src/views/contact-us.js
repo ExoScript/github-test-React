@@ -21,7 +21,7 @@ const ContactUs = (props) => {
               <div className="contact-us-container05">
                 <div className="contact-us-container06">
                   <div className="contact-us-container07">
-                    <span className="text-2">Contact us</span>
+                    <span className="contact-us-text text-2">Contact us</span>
                   </div>
                   <span className="contact-us-text01 titel-1">
                     We are happy to discuss your growth with you!

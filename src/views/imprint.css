@@ -25,7 +25,7 @@
   align-items: center;
   flex-direction: column;
   background-size: cover;
-  background-image: url("/frame%20310-1500w.png");
+  background-image: url("/bg/img_9.svg");
 }
 .imprint-container03 {
   flex: 1;
@@ -33,7 +33,6 @@
   height: 0px;
   display: flex;
   align-items: center;
-  padding-left: var(--dl-space-space-p60);
   flex-direction: row;
   justify-content: center;
 }
@@ -64,7 +63,6 @@
 .imprint-container07 {
   color: var(--dl-color-gray-text);
   display: flex;
-  opacity: 0.5;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
   align-items: flex-start;
   padding-top: 5px;
@@ -73,7 +71,11 @@
   padding-right: 15px;
   flex-direction: column;
   padding-bottom: 5px;
-  background-color: var(--dl-color-gray-white);
+  background-image: linear-gradient(315deg, rgba(255, 255, 255, 0.5) 0.00%,rgb(255, 255, 255) 99.00%);
+}
+.imprint-text {
+  font-style: normal;
+  font-weight: 600;
 }
 .imprint-text01 {
   text-align: center;
@@ -82,6 +84,19 @@
   text-align: center;
 }
 .imprint-container08 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 20px;
+  display: flex;
+  box-shadow: 0px -5px 10px 0px rgba(66, 66, 66, 0.3);
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-border);
+  border-width: 1px;
+  background-color: rgba(243, 243, 243, 0.63);
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+.imprint-container09 {
   width: 100%;
   height: auto;
   display: flex;
@@ -90,7 +105,7 @@
   padding-bottom: var(--dl-space-space-p60);
   justify-content: center;
 }
-.imprint-container09 {
+.imprint-container10 {
   gap: 30px;
   flex: 0 0 auto;
   width: 80%;
@@ -130,7 +145,7 @@
 .imprint-text22 {
   text-align: center;
 }
-.imprint-container10 {
+.imprint-container11 {
   width: 100%;
   height: auto;
   display: flex;
@@ -141,7 +156,7 @@
   justify-content: center;
   background-image: url("/rectangle%20166-1500w.png");
 }
-.imprint-container11 {
+.imprint-container12 {
   flex: 0 0 auto;
   width: 80%;
   height: 100%;
@@ -149,7 +164,7 @@
   align-items: flex-start;
   flex-direction: row;
 }
-.imprint-container12 {
+.imprint-container13 {
   gap: 20px;
   flex: 1;
   color: var(--dl-color-gray-white);
@@ -162,7 +177,7 @@
 .imprint-text27 {
   opacity: 0.8;
 }
-.imprint-container13 {
+.imprint-container14 {
   gap: 10px;
   width: 526px;
   height: 100%;
@@ -171,7 +186,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.imprint-container14 {
+.imprint-container15 {
   gap: 5px;
   flex: 0 0 auto;
   color: var(--dl-color-gray-white);
@@ -190,7 +205,7 @@
   height: 100%;
   background-color: transparent;
 }
-.imprint-container15 {
+.imprint-container16 {
   gap: 10px;
   flex: 0 0 auto;
   width: 100%;

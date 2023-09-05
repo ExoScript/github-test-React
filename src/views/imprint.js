@@ -21,7 +21,7 @@ const Imprint = (props) => {
               <div className="imprint-container05">
                 <div className="imprint-container06">
                   <div className="imprint-container07">
-                    <span className="text-2">Imprint</span>
+                    <span className="imprint-text text-2">Imprint</span>
                   </div>
                   <span className="imprint-text01 titel-1">
                     Guarding Your Information: Unveiling Our Privacy Policy
@@ -35,8 +35,9 @@ const Imprint = (props) => {
             </div>
           </div>
         </div>
-        <div className="imprint-container08">
-          <div className="imprint-container09">
+        <div className="imprint-container08"></div>
+        <div className="imprint-container09">
+          <div className="imprint-container10">
             <span className="imprint-text03 titel-1">Impressum</span>
             <span className="imprint-text04 ueberschrift-1">
               Angaben gemäß § 5 TMG
@@ -73,9 +74,9 @@ const Imprint = (props) => {
             </span>
           </div>
         </div>
-        <div className="imprint-container10">
-          <div className="imprint-container11">
-            <div className="imprint-container12">
+        <div className="imprint-container11">
+          <div className="imprint-container12">
+            <div className="imprint-container13">
               <span className="titel-2">Subscribe Our Newsletter</span>
               <span className="imprint-text27 text-1">
                 <span>
@@ -86,15 +87,15 @@ const Imprint = (props) => {
                 <span>and consulting tips delivered to your inbox</span>
               </span>
             </div>
-            <div className="imprint-container13">
-              <div className="imprint-container14">
+            <div className="imprint-container14">
+              <div className="imprint-container15">
                 <input
                   type="text"
                   placeholder="Your full name"
                   className="imprint-textinput input"
                 />
               </div>
-              <div className="imprint-container15">
+              <div className="imprint-container16">
                 <span className="imprint-text31">Subscribe</span>
                 <svg viewBox="0 0 1024 1024" className="imprint-icon">
                   <path d="M481.835 243.499l225.835 225.835h-494.336c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h494.336l-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l298.667-298.667c3.925-3.925 7.083-8.619 9.259-13.824 4.309-10.453 4.309-22.229 0-32.683-2.091-5.035-5.163-9.728-9.259-13.824l-298.667-298.667c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path>

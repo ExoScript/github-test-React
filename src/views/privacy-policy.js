@@ -21,7 +21,9 @@ const PrivacyPolicy = (props) => {
               <div className="privacy-policy-container05">
                 <div className="privacy-policy-container06">
                   <div className="privacy-policy-container07">
-                    <span className="text-2">Privacy-Policy</span>
+                    <span className="privacy-policy-text text-2">
+                      Privacy-Policy
+                    </span>
                   </div>
                   <span className="privacy-policy-text001 titel-1">
                     Guarding Your Information: Unveiling Our Privacy Policy
@@ -35,8 +37,9 @@ const PrivacyPolicy = (props) => {
             </div>
           </div>
         </div>
-        <div className="privacy-policy-container08">
-          <div className="privacy-policy-container09">
+        <div className="privacy-policy-container08"></div>
+        <div className="privacy-policy-container09">
+          <div className="privacy-policy-container10">
             <span className="privacy-policy-text003 titel-1">
               Datenschutzerklärung
             </span>
@@ -811,9 +814,9 @@ const PrivacyPolicy = (props) => {
             </span>
           </div>
         </div>
-        <div className="privacy-policy-container10">
-          <div className="privacy-policy-container11">
-            <div className="privacy-policy-container12">
+        <div className="privacy-policy-container11">
+          <div className="privacy-policy-container12">
+            <div className="privacy-policy-container13">
               <span className="titel-2">Subscribe Our Newsletter</span>
               <span className="privacy-policy-text324 text-1">
                 <span>
@@ -824,15 +827,15 @@ const PrivacyPolicy = (props) => {
                 <span>and consulting tips delivered to your inbox</span>
               </span>
             </div>
-            <div className="privacy-policy-container13">
-              <div className="privacy-policy-container14">
+            <div className="privacy-policy-container14">
+              <div className="privacy-policy-container15">
                 <input
                   type="text"
                   placeholder="Your full name"
                   className="privacy-policy-textinput input"
                 />
               </div>
-              <div className="privacy-policy-container15">
+              <div className="privacy-policy-container16">
                 <span className="privacy-policy-text328">Subscribe</span>
                 <svg viewBox="0 0 1024 1024" className="privacy-policy-icon">
                   <path d="M481.835 243.499l225.835 225.835h-494.336c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h494.336l-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l298.667-298.667c3.925-3.925 7.083-8.619 9.259-13.824 4.309-10.453 4.309-22.229 0-32.683-2.091-5.035-5.163-9.728-9.259-13.824l-298.667-298.667c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path>
