@@ -333,13 +333,12 @@
 }
 .near-cloud-container026 {
   width: 100%;
-  height: 732px;
+  height: auto;
   display: flex;
   align-items: flex-start;
 }
 .near-cloud-container027 {
   flex: 1;
-  width: 653px;
   height: 100%;
   display: flex;
   align-items: flex-start;
@@ -359,7 +358,6 @@
 }
 .near-cloud-container029 {
   flex: 1;
-  width: 653px;
   height: 100%;
   display: flex;
   align-items: flex-start;
@@ -409,7 +407,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.near-cloud-text34 {
+.near-cloud-text32 {
   opacity: 0.8;
 }
 .near-cloud-container034 {
@@ -453,14 +451,14 @@
   height: 32px;
   object-fit: cover;
 }
-.near-cloud-text35 {
+.near-cloud-text33 {
   font-size: 48px;
   font-style: normal;
   font-family: Poppins;
   font-weight: 600;
   line-height: 51.84px;
 }
-.near-cloud-text36 {
+.near-cloud-text34 {
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -500,14 +498,14 @@
   height: 32px;
   object-fit: cover;
 }
-.near-cloud-text37 {
+.near-cloud-text35 {
   font-size: 48px;
   font-style: normal;
   font-family: Poppins;
   font-weight: 600;
   line-height: 51.84px;
 }
-.near-cloud-text38 {
+.near-cloud-text36 {
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -547,14 +545,14 @@
   height: 32px;
   object-fit: cover;
 }
-.near-cloud-text39 {
+.near-cloud-text37 {
   font-size: 48px;
   font-style: normal;
   font-family: Poppins;
   font-weight: 600;
   line-height: 51.84px;
 }
-.near-cloud-text40 {
+.near-cloud-text38 {
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -594,14 +592,14 @@
   height: 32px;
   object-fit: cover;
 }
-.near-cloud-text41 {
+.near-cloud-text39 {
   font-size: 48px;
   font-style: normal;
   font-family: Poppins;
   font-weight: 600;
   line-height: 51.84px;
 }
-.near-cloud-text42 {
+.near-cloud-text40 {
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -650,10 +648,10 @@
   display: flex;
   flex-direction: column;
 }
-.near-cloud-text43 {
+.near-cloud-text41 {
   color: rgb(246, 88, 20);
 }
-.near-cloud-text45 {
+.near-cloud-text43 {
   width: 100%;
 }
 .near-cloud-container056 {
@@ -791,7 +789,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.near-cloud-text54 {
+.near-cloud-text52 {
   color: rgb(246, 88, 20);
 }
 .near-cloud-container070 {
@@ -816,7 +814,7 @@
   justify-content: center;
   background-color: #0066FC;
 }
-.near-cloud-text56 {
+.near-cloud-text54 {
   font-size: 18px;
 }
 .near-cloud-icon18 {
@@ -876,11 +874,11 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.near-cloud-text57 {
+.near-cloud-text55 {
   opacity: 0.7;
   line-height: 19.36px;
 }
-.near-cloud-text58 {
+.near-cloud-text56 {
   opacity: 0.7;
   line-height: 19.36px;
 }
@@ -897,7 +895,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.near-cloud-text59 {
+.near-cloud-text57 {
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -909,7 +907,7 @@
   align-items: center;
   flex-direction: row;
 }
-.near-cloud-text60 {
+.near-cloud-text58 {
   font-size: 18px;
   font-style: normal;
   font-family: Poppins;
@@ -966,11 +964,11 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.near-cloud-text61 {
+.near-cloud-text59 {
   opacity: 0.7;
   line-height: 19.36px;
 }
-.near-cloud-text62 {
+.near-cloud-text60 {
   opacity: 0.7;
   line-height: 19.36px;
 }
@@ -987,7 +985,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.near-cloud-text63 {
+.near-cloud-text61 {
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -999,7 +997,7 @@
   align-items: center;
   flex-direction: row;
 }
-.near-cloud-text64 {
+.near-cloud-text62 {
   font-size: 18px;
   font-style: normal;
   font-family: Poppins;
@@ -1056,11 +1054,11 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.near-cloud-text65 {
+.near-cloud-text63 {
   opacity: 0.7;
   line-height: 19.36px;
 }
-.near-cloud-text66 {
+.near-cloud-text64 {
   opacity: 0.7;
   line-height: 19.36px;
 }
@@ -1077,7 +1075,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.near-cloud-text67 {
+.near-cloud-text65 {
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -1089,7 +1087,7 @@
   align-items: center;
   flex-direction: row;
 }
-.near-cloud-text68 {
+.near-cloud-text66 {
   font-size: 18px;
   font-style: normal;
   font-family: Poppins;
@@ -1129,7 +1127,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.near-cloud-text70 {
+.near-cloud-text68 {
   opacity: 0.8;
 }
 .near-cloud-container100 {
@@ -1172,7 +1170,7 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.near-cloud-text74 {
+.near-cloud-text72 {
   font-size: 18px;
   line-height: 22px;
 }

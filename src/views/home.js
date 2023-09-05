@@ -380,7 +380,7 @@ const Home = (props) => {
             </div>
             <div className="home-container070">
               <div className="home-container071">
-                <span className="home-text108 sub-titel-1">- ABOUT US</span>
+                <span className="home-text108 sub-titel-1">- About us</span>
                 <span className="titel-2">About Up2Data</span>
                 <span className="text-1">
                   <span>
@@ -595,7 +595,7 @@ const Home = (props) => {
               <div className="home-container118">
                 <div className="home-container119">
                   <span className="home-text144 sub-titel-1">
-                    - ONGOING CONNECTIVITY
+                    - Ongoing connectivity
                   </span>
                   <span className="titel-2">
                     <span>Automatically get new</span>

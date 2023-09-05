@@ -200,26 +200,13 @@ const NearCloud = (props) => {
                 />
                 <div className="near-cloud-container030">
                   <span className="ueberschrift-2">
-                    After a fast onboarding your customers will be tracked
-                    automatically forever
+                    All resulting job changes of your tracked profiles will be
+                    send directly to you
                   </span>
                   <span className="text-1">
-                    <span>
-                      Many of your hard earned contacts changed their job. But
-                      this is also a valuable chance fo new sales
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
-                    </span>
-                    <span>
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
-                    </span>
+                    Your sales people will thank you for those deals, as they
+                    almost feel like a gift. Next to referral deals these might
+                    be the highest converting leads
                   </span>
                 </div>
               </div>
@@ -232,7 +219,7 @@ const NearCloud = (props) => {
               <span className="titel-2">
                 Learn about our company success stories
               </span>
-              <span className="near-cloud-text34 text-1">
+              <span className="near-cloud-text32 text-1">
                 Start your sales journey today to get the most out of your
                 efforts
               </span>
@@ -247,10 +234,10 @@ const NearCloud = (props) => {
                         src="/vector.svg"
                         className="near-cloud-image3"
                       />
-                      <span className="near-cloud-text35">10K+</span>
+                      <span className="near-cloud-text33">10K+</span>
                     </div>
                   </div>
-                  <span className="near-cloud-text36">Sales Calls</span>
+                  <span className="near-cloud-text34">Sales Calls</span>
                 </div>
                 <div className="near-cloud-container039"></div>
                 <div className="near-cloud-container040">
@@ -261,10 +248,10 @@ const NearCloud = (props) => {
                         src="/vector.svg"
                         className="near-cloud-image4"
                       />
-                      <span className="near-cloud-text37">125K+</span>
+                      <span className="near-cloud-text35">125K+</span>
                     </div>
                   </div>
-                  <span className="near-cloud-text38">Data enriched</span>
+                  <span className="near-cloud-text36">Data enriched</span>
                 </div>
                 <div className="near-cloud-container043"></div>
                 <div className="near-cloud-container044">
@@ -275,10 +262,10 @@ const NearCloud = (props) => {
                         src="/vector.svg"
                         className="near-cloud-image5"
                       />
-                      <span className="near-cloud-text39">15+</span>
+                      <span className="near-cloud-text37">15+</span>
                     </div>
                   </div>
-                  <span className="near-cloud-text40">Years Experience</span>
+                  <span className="near-cloud-text38">Years Experience</span>
                 </div>
                 <div className="near-cloud-container047"></div>
                 <div className="near-cloud-container048">
@@ -289,10 +276,10 @@ const NearCloud = (props) => {
                         src="/vector.svg"
                         className="near-cloud-image6"
                       />
-                      <span className="near-cloud-text41">8+</span>
+                      <span className="near-cloud-text39">8+</span>
                     </div>
                   </div>
-                  <span className="near-cloud-text42">ROI on average</span>
+                  <span className="near-cloud-text40">ROI on average</span>
                 </div>
               </div>
             </div>
@@ -309,13 +296,13 @@ const NearCloud = (props) => {
                 />
               </div>
               <div className="near-cloud-container055">
-                <span className="near-cloud-text43 sub-titel-1">
-                  - our features
+                <span className="near-cloud-text41 sub-titel-1">
+                  - Our features
                 </span>
                 <span className="titel-2">
                   Our tool scales with you as you grow
                 </span>
-                <span className="near-cloud-text45 text-1">
+                <span className="near-cloud-text43 text-1">
                   <span>
                     Even if you have a small number of customers yet, you are
                     always free to start, as each tracked contact only costs 10
@@ -386,7 +373,7 @@ const NearCloud = (props) => {
             <div className="near-cloud-container067">
               <div className="near-cloud-container068">
                 <div className="near-cloud-container069">
-                  <span className="near-cloud-text54 sub-titel-1">
+                  <span className="near-cloud-text52 sub-titel-1">
                     Blog and case study
                   </span>
                   <span className="titel-2">Our latest case study</span>
@@ -394,7 +381,7 @@ const NearCloud = (props) => {
               </div>
               <div className="near-cloud-container070">
                 <div className="near-cloud-container071">
-                  <span className="near-cloud-text56">Read All Blog</span>
+                  <span className="near-cloud-text54">Read All Blog</span>
                   <svg viewBox="0 0 1024 1024" className="near-cloud-icon18">
                     <path d="M481.835 243.499l225.835 225.835h-494.336c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h494.336l-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l298.667-298.667c3.925-3.925 7.083-8.619 9.259-13.824 4.309-10.453 4.309-22.229 0-32.683-2.091-5.035-5.163-9.728-9.259-13.824l-298.667-298.667c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path>
                   </svg>
@@ -407,18 +394,18 @@ const NearCloud = (props) => {
                 <div className="near-cloud-container075">
                   <div className="near-cloud-container076">
                     <div className="near-cloud-container077">
-                      <span className="near-cloud-text57">IT Support</span>
-                      <span className="near-cloud-text58">June 9, 2022</span>
+                      <span className="near-cloud-text55">IT Support</span>
+                      <span className="near-cloud-text56">June 9, 2022</span>
                     </div>
                     <div className="near-cloud-container078"></div>
                   </div>
                   <div className="near-cloud-container079">
-                    <span className="near-cloud-text59">
+                    <span className="near-cloud-text57">
                       Being different in Sales is crucial for your success
                     </span>
                   </div>
                   <div className="near-cloud-container080">
-                    <span className="near-cloud-text60">Read More</span>
+                    <span className="near-cloud-text58">Read More</span>
                     <svg viewBox="0 0 1024 1024" className="near-cloud-icon20">
                       <path d="M481.835 243.499l225.835 225.835h-494.336c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h494.336l-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l298.667-298.667c3.925-3.925 7.083-8.619 9.259-13.824 4.309-10.453 4.309-22.229 0-32.683-2.091-5.035-5.163-9.728-9.259-13.824l-298.667-298.667c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path>
                     </svg>
@@ -430,20 +417,20 @@ const NearCloud = (props) => {
                 <div className="near-cloud-container083">
                   <div className="near-cloud-container084">
                     <div className="near-cloud-container085">
-                      <span className="near-cloud-text61">
+                      <span className="near-cloud-text59">
                         Marketing Consulting
                       </span>
-                      <span className="near-cloud-text62">June 9, 2022</span>
+                      <span className="near-cloud-text60">June 9, 2022</span>
                     </div>
                     <div className="near-cloud-container086"></div>
                   </div>
                   <div className="near-cloud-container087">
-                    <span className="near-cloud-text63">
+                    <span className="near-cloud-text61">
                       Adding new ways of outreach can boost your growth
                     </span>
                   </div>
                   <div className="near-cloud-container088">
-                    <span className="near-cloud-text64">Read More</span>
+                    <span className="near-cloud-text62">Read More</span>
                     <svg viewBox="0 0 1024 1024" className="near-cloud-icon22">
                       <path d="M481.835 243.499l225.835 225.835h-494.336c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h494.336l-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l298.667-298.667c3.925-3.925 7.083-8.619 9.259-13.824 4.309-10.453 4.309-22.229 0-32.683-2.091-5.035-5.163-9.728-9.259-13.824l-298.667-298.667c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path>
                     </svg>
@@ -455,15 +442,15 @@ const NearCloud = (props) => {
                 <div className="near-cloud-container091">
                   <div className="near-cloud-container092">
                     <div className="near-cloud-container093">
-                      <span className="near-cloud-text65">
+                      <span className="near-cloud-text63">
                         Business Consulting
                       </span>
-                      <span className="near-cloud-text66">June 9, 2022</span>
+                      <span className="near-cloud-text64">June 9, 2022</span>
                     </div>
                     <div className="near-cloud-container094"></div>
                   </div>
                   <div className="near-cloud-container095">
-                    <span className="near-cloud-text67">
+                    <span className="near-cloud-text65">
                       The right approach at the right time - how outreach can
                       change
                       <span
@@ -474,7 +461,7 @@ const NearCloud = (props) => {
                     </span>
                   </div>
                   <div className="near-cloud-container096">
-                    <span className="near-cloud-text68">Read More</span>
+                    <span className="near-cloud-text66">Read More</span>
                     <svg viewBox="0 0 1024 1024" className="near-cloud-icon24">
                       <path d="M481.835 243.499l225.835 225.835h-494.336c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h494.336l-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l298.667-298.667c3.925-3.925 7.083-8.619 9.259-13.824 4.309-10.453 4.309-22.229 0-32.683-2.091-5.035-5.163-9.728-9.259-13.824l-298.667-298.667c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path>
                     </svg>
@@ -488,7 +475,7 @@ const NearCloud = (props) => {
           <div className="near-cloud-container098">
             <div className="near-cloud-container099">
               <span className="titel-2">Subscribe Our Newsletter</span>
-              <span className="near-cloud-text70 text-1">
+              <span className="near-cloud-text68 text-1">
                 <span>
                   Enter your details to get business inspiration, trending
                   solutions,
@@ -506,7 +493,7 @@ const NearCloud = (props) => {
                 />
               </div>
               <div className="near-cloud-container102">
-                <span className="near-cloud-text74">Subscribe</span>
+                <span className="near-cloud-text72">Subscribe</span>
                 <svg viewBox="0 0 1024 1024" className="near-cloud-icon26">
                   <path d="M481.835 243.499l225.835 225.835h-494.336c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h494.336l-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l298.667-298.667c3.925-3.925 7.083-8.619 9.259-13.824 4.309-10.453 4.309-22.229 0-32.683-2.091-5.035-5.163-9.728-9.259-13.824l-298.667-298.667c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path>
                 </svg>
