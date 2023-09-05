@@ -164,8 +164,8 @@ const NearCloud = (props) => {
             <div className="near-cloud-container027">
               <div className="near-cloud-container028">
                 <img
-                  src="/img_6.svg"
                   alt="image"
+                  src="/img_6.svg"
                   className="near-cloud-image1"
                 />
                 <div className="near-cloud-container029">
@@ -195,8 +195,8 @@ const NearCloud = (props) => {
               </div>
               <div className="near-cloud-container030">
                 <img
-                  src="/img_7.svg"
                   alt="image"
+                  src="/img_7.svg"
                   className="near-cloud-image2"
                 />
                 <div className="near-cloud-container031">
