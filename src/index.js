@@ -13,7 +13,7 @@ import AboutUs from './views/about-us'
 import ComponentsSandbox from './views/components-sandbox'
 import PrivacyPolicy from './views/privacy-policy'
 import NearCloud from './views/near-cloud'
-import Page from './views/page'
+import Error from './views/error'
 
 const App = () => {
   return (
@@ -29,7 +29,7 @@ const App = () => {
         <Route component={ComponentsSandbox} exact path="/components-sandbox" />
         <Route component={PrivacyPolicy} exact path="/privacy-policy" />
         <Route component={NearCloud} exact path="/near-cloud" />
-        <Route component={Page} path="**" />
+        <Route component={Error} path="**" />
       </div>
     </Router>
   )
