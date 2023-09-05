@@ -49,14 +49,14 @@ const Imprint = (props) => {
               <span>80333 München</span>
             </span>
             <span className="imprint-text11">
-              <span>Handelsregister: [Nummer des Registereintrags]</span>
+              <span>Handelsregister: HRB284016</span>
               <br></br>
-              <span>Registergericht: [Name des Registergerichts]</span>
+              <span>Registergericht: München</span>
             </span>
             <span className="imprint-text15">
               <span className="imprint-text16">Vertreten durch:</span>
               <br></br>
-              <span>Vorname Nachname</span>
+              <span>Daniel Donhasuer</span>
             </span>
             <span className="imprint-text19 ueberschrift-2">Kontakt</span>
             <span className="imprint-text20">E-Mail: info@email.de</span>

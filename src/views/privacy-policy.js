@@ -294,7 +294,7 @@ const PrivacyPolicy = (props) => {
               Website ist:
             </span>
             <span className="privacy-policy-text107">
-              <span>Vorname Nachname</span>
+              <span>Daniel Donhasuer</span>
               <br></br>
               <span>Up2Data GmbH</span>
               <br></br>
