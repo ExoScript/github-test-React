@@ -108,26 +108,26 @@
 .imprint-text05 {
   text-align: center;
 }
-.imprint-text13 {
+.imprint-text11 {
   text-align: center;
 }
-.imprint-text17 {
+.imprint-text15 {
   text-align: center;
 }
-.imprint-text18 {
+.imprint-text16 {
   font-style: normal;
   font-weight: 700;
+}
+.imprint-text19 {
+  text-align: center;
+}
+.imprint-text20 {
+  text-align: center;
 }
 .imprint-text21 {
   text-align: center;
 }
 .imprint-text22 {
-  text-align: center;
-}
-.imprint-text26 {
-  text-align: center;
-}
-.imprint-text27 {
   text-align: center;
 }
 .imprint-container10 {
@@ -159,7 +159,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.imprint-text32 {
+.imprint-text27 {
   opacity: 0.8;
 }
 .imprint-container13 {
@@ -179,13 +179,16 @@
   height: 45px;
   display: flex;
   align-items: center;
+  padding-left: var(--dl-space-space-p20);
   border-radius: 35px;
   flex-direction: row;
   justify-content: center;
   background-color: rgba(255, 255, 255, 0.23);
 }
-.imprint-text36 {
-  opacity: 0.6;
+.imprint-textinput {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
 }
 .imprint-container15 {
   gap: 10px;
@@ -199,7 +202,7 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.imprint-text37 {
+.imprint-text31 {
   font-size: 18px;
   line-height: 22px;
 }

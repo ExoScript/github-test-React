@@ -62,75 +62,12 @@ const Home = (props) => {
         <div className="home-container011 border-b">
           <div className="home-container012">
             <div className="home-container013">
-              <img alt="image" src="/img_1.svg" className="home-image1" />
-            </div>
-            <div className="home-container014">
-              <div className="home-container015">
-                <span className="home-text012 sub-titel-1">- ABOUT US</span>
-                <span className="titel-2">About Up2Data</span>
-                <span className="text-1">
-                  <span>
-                    After thousands of Sales deals in different stages of
-                    companies, our mindset and our tools help companies sales
-                    teams to grow more scalable
-                  </span>
-                  <br></br>
-                </span>
-              </div>
-              <div className="home-container016">
-                <div className="home-container017">
-                  <div className="home-container018">
-                    <div className="home-container019">
-                      <svg viewBox="0 0 1024 1024" className="home-icon">
-                        <path d="M954.857 323.429c0 14.286-5.714 28.571-16 38.857l-491.429 491.429c-10.286 10.286-24.571 16-38.857 16s-28.571-5.714-38.857-16l-284.571-284.571c-10.286-10.286-16-24.571-16-38.857s5.714-28.571 16-38.857l77.714-77.714c10.286-10.286 24.571-16 38.857-16s28.571 5.714 38.857 16l168 168.571 374.857-375.429c10.286-10.286 24.571-16 38.857-16s28.571 5.714 38.857 16l77.714 77.714c10.286 10.286 16 24.571 16 38.857z"></path>
-                      </svg>
-                    </div>
-                  </div>
-                  <div className="home-container020">
-                    <span className="ueberschrift-3">Our Mission</span>
-                    <span className="text-2">
-                      Getting the most out of your Sales department by having
-                      the right tools at the right time
-                    </span>
-                  </div>
-                </div>
-                <div className="home-container021">
-                  <div className="home-container022">
-                    <div className="home-container023">
-                      <svg viewBox="0 0 1024 1024" className="home-icon02">
-                        <path d="M954.857 323.429c0 14.286-5.714 28.571-16 38.857l-491.429 491.429c-10.286 10.286-24.571 16-38.857 16s-28.571-5.714-38.857-16l-284.571-284.571c-10.286-10.286-16-24.571-16-38.857s5.714-28.571 16-38.857l77.714-77.714c10.286-10.286 24.571-16 38.857-16s28.571 5.714 38.857 16l168 168.571 374.857-375.429c10.286-10.286 24.571-16 38.857-16s28.571 5.714 38.857 16l77.714 77.714c10.286 10.286 16 24.571 16 38.857z"></path>
-                      </svg>
-                    </div>
-                  </div>
-                  <div className="home-container024">
-                    <span className="ueberschrift-3">Our Vision</span>
-                    <span className="text-2">
-                      Connecting the world of Sales to grow collaboratively in
-                      an environment where everyone benefits
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <Link to="/contact-us" className="home-navlink">
-                <div className="home-button-blue button-blue">
-                  <span className="text-1">Get Started</span>
-                  <svg viewBox="0 0 1024 1024" className="home-icon04">
-                    <path d="M481.835 243.499l225.835 225.835h-494.336c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h494.336l-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l298.667-298.667c3.925-3.925 7.083-8.619 9.259-13.824 4.309-10.453 4.309-22.229 0-32.683-2.091-5.035-5.163-9.728-9.259-13.824l-298.667-298.667c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path>
-                  </svg>
-                </div>
-              </Link>
-            </div>
-          </div>
-        </div>
-        <div className="home-container025 border-b">
-          <div className="home-container026">
-            <div className="home-container027">
-              <span className="home-text022 titel-2">
+              <span className="home-text012 titel-2">
                 <span>Reliable data is the foundation of successful</span>
                 <br></br>
                 <span>sales outcomes</span>
               </span>
-              <span className="home-text026 text-1">
+              <span className="home-text016 text-1">
                 <span>
                   Our sources enable sales teams to get the right data at the
                   right time. It does not matter if you already
@@ -143,16 +80,16 @@ const Home = (props) => {
               </span>
             </div>
           </div>
-          <div className="home-container028">
-            <div className="home-container029">
-              <div className="home-container030">
-                <div className="home-container031">
-                  <div className="home-container032">
-                    <svg viewBox="0 0 1024 1024" className="home-icon06">
+          <div className="home-container014">
+            <div className="home-container015">
+              <div className="home-container016">
+                <div className="home-container017">
+                  <div className="home-container018">
+                    <svg viewBox="0 0 1024 1024" className="home-icon">
                       <path d="M854 896v-554h-684v554h684zM854 128q34 0 59 26t25 60v682q0 34-25 60t-59 26h-684q-34 0-59-26t-25-60v-682q0-34 25-60t59-26h44v-86h84v86h428v-86h84v86h44z"></path>
                     </svg>
                   </div>
-                  <div className="home-container033">
+                  <div className="home-container019">
                     <Player
                       src="https://lottie.host/74f28f89-d3dc-4a7a-aee2-8afb193a6946/rXoA68opHK.json"
                       speed="1"
@@ -161,18 +98,18 @@ const Home = (props) => {
                       className="home-lottie-node"
                     ></Player>
                   </div>
-                  <span className="home-text030 label-1">01</span>
+                  <span className="home-text020 label-1">01</span>
                 </div>
-                <div className="home-container034">
+                <div className="home-container020">
                   <span className="ueberschrift-1">
                     <span>New high value leads</span>
                     <br></br>
                     <span>every week</span>
                   </span>
                 </div>
-                <div className="home-container035"></div>
-                <div className="home-container036">
-                  <span className="home-text035 text-2">
+                <div className="home-container021"></div>
+                <div className="home-container022">
+                  <span className="home-text025 text-2">
                     <span>We help analysing your current </span>
                     <span>customer base for potential new deals </span>
                     <span>via nearbound sales</span>
@@ -180,7 +117,7 @@ const Home = (props) => {
                 </div>
               </div>
               <div className="tool-box">
-                <div className="home-container038">
+                <div className="home-container024">
                   <Player
                     src="https://lottie.host/71ed10da-8877-4337-a4ee-b7fb297a2996/X6gtxb1udb.json"
                     loop
@@ -195,14 +132,14 @@ const Home = (props) => {
                   <br></br>
                   <span>every week</span>
                 </span>
-                <span className="home-text043 text-2 text-1">
+                <span className="home-text033 text-2 text-1">
                   <span>We help analysing your current </span>
                   <span>customer base for potential new deals </span>
                   <span>via nearbound sales</span>
                 </span>
               </div>
               <div className="tool-box">
-                <div className="home-container040">
+                <div className="home-container026">
                   <Player
                     src="https://lottie.host/7d8bcce8-da90-45b1-826b-7a1fe461ebb6/0BBnNjXnEa.json"
                     loop
@@ -217,13 +154,13 @@ const Home = (props) => {
                   <br></br>
                   <span>on a daily basis</span>
                 </span>
-                <span className="home-text051 text-2 text-1">
+                <span className="home-text041 text-2 text-1">
                   For outbound sales we help you with an automated send-out
                   strategy that uses AI to get better delivery rates
                 </span>
               </div>
               <div className="tool-box">
-                <div className="home-container042">
+                <div className="home-container028">
                   <Player
                     src="https://lottie.host/7d8bcce8-da90-45b1-826b-7a1fe461ebb6/0BBnNjXnEa.json"
                     loop
@@ -238,47 +175,47 @@ const Home = (props) => {
                   <br></br>
                   <span>work involved</span>
                 </span>
-                <span className="home-text056 text-2 text-1">
+                <span className="home-text046 text-2 text-1">
                   Only the setup requires a little bit collaboration After that
                   it is a smooth way of getting new leads into your CRM
                 </span>
               </div>
-              <div className="home-container043">
-                <div className="home-container044">
-                  <div className="home-container045"></div>
+              <div className="home-container029">
+                <div className="home-container030">
+                  <div className="home-container031"></div>
                   <span className="label-1">02</span>
                 </div>
-                <div className="home-container046">
+                <div className="home-container032">
                   <span className="ueberschrift-1">
                     <span>Automated reach out</span>
                     <br></br>
                     <span>on a daily basis</span>
                   </span>
                 </div>
-                <div className="home-container047"></div>
-                <div className="home-container048">
-                  <span className="home-text062 text-2">
+                <div className="home-container033"></div>
+                <div className="home-container034">
+                  <span className="home-text052 text-2">
                     <span>For outbound sales we help you with an </span>
                     <span>automated send-out strategy that uses </span>
                     <span>AI to get better delivery rates</span>
                   </span>
                 </div>
               </div>
-              <div className="home-container049">
-                <div className="home-container050">
-                  <div className="home-container051"></div>
+              <div className="home-container035">
+                <div className="home-container036">
+                  <div className="home-container037"></div>
                   <span className="label-1">03</span>
                 </div>
-                <div className="home-container052">
+                <div className="home-container038">
                   <span className="ueberschrift-1">
                     <span>New high value leads</span>
                     <br></br>
                     <span>every week</span>
                   </span>
                 </div>
-                <div className="home-container053"></div>
-                <div className="home-container054">
-                  <span className="home-text071 text-2">
+                <div className="home-container039"></div>
+                <div className="home-container040">
+                  <span className="home-text061 text-2">
                     <span>Only the setup requires a little bit </span>
                     <span>collaboration After that it is a smooth </span>
                     <span>way of getting new leads into your CRM</span>
@@ -286,15 +223,15 @@ const Home = (props) => {
                 </div>
               </div>
             </div>
-            <div className="home-container055">
-              <div className="home-container056">
-                <div className="home-container057">
-                  <div className="home-container058">
-                    <svg viewBox="0 0 1024 1024" className="home-icon08">
+            <div className="home-container041">
+              <div className="home-container042">
+                <div className="home-container043">
+                  <div className="home-container044">
+                    <svg viewBox="0 0 1024 1024" className="home-icon02">
                       <path d="M854 896v-554h-684v554h684zM854 128q34 0 59 26t25 60v682q0 34-25 60t-59 26h-684q-34 0-59-26t-25-60v-682q0-34 25-60t59-26h44v-86h84v86h428v-86h84v86h44z"></path>
                     </svg>
                   </div>
-                  <div className="home-container059">
+                  <div className="home-container045">
                     <Player
                       src="https://lottie.host/74f28f89-d3dc-4a7a-aee2-8afb193a6946/rXoA68opHK.json"
                       speed="1"
@@ -303,26 +240,26 @@ const Home = (props) => {
                       className="home-lottie-node4"
                     ></Player>
                   </div>
-                  <span className="home-text075 label-1">01</span>
+                  <span className="home-text065 label-1">01</span>
                 </div>
-                <div className="home-container060">
+                <div className="home-container046">
                   <span className="ueberschrift-1">
                     <span>New high value leads</span>
                     <br></br>
                     <span>every week</span>
                   </span>
                 </div>
-                <div className="home-container061"></div>
-                <div className="home-container062">
-                  <span className="home-text080 text-2">
+                <div className="home-container047"></div>
+                <div className="home-container048">
+                  <span className="home-text070 text-2">
                     <span>We help analysing your current </span>
                     <span>customer base for potential new deals </span>
                     <span>via nearbound sales</span>
                   </span>
                 </div>
               </div>
-              <div className="home-container063 tool-box">
-                <div className="home-container064">
+              <div className="home-container049 tool-box">
+                <div className="home-container050">
                   <Player
                     src="https://lottie.host/2ee3947c-1d01-425f-bb03-d877b17d4347/h89DqDcy3D.json"
                     loop
@@ -337,14 +274,14 @@ const Home = (props) => {
                   <br></br>
                   <span>CRM</span>
                 </span>
-                <span className="home-text088 text-2 text-1">
+                <span className="home-text078 text-2 text-1">
                   <span>We help analysing your current </span>
                   <span>customer base for potential new deals </span>
                   <span>via nearbound sales</span>
                 </span>
               </div>
-              <div className="home-container065 tool-box">
-                <div className="home-container066">
+              <div className="home-container051 tool-box">
+                <div className="home-container052">
                   <Player
                     src="https://lottie.host/e296945d-348a-4402-86fa-8243176041f0/Juqr2BeeO7.json"
                     loop
@@ -357,13 +294,13 @@ const Home = (props) => {
                 <span className="ueberschrift-2">
                   Higher ROI compared to other initiatives
                 </span>
-                <span className="home-text093 text-2 text-1">
+                <span className="home-text083 text-2 text-1">
                   For outbound sales we help you with an automated send-out
                   strategy that uses AI to get better delivery rates
                 </span>
               </div>
-              <div className="home-container067 tool-box">
-                <div className="home-container068">
+              <div className="home-container053 tool-box">
+                <div className="home-container054">
                   <Player
                     src="https://lottie.host/7d8bcce8-da90-45b1-826b-7a1fe461ebb6/0BBnNjXnEa.json"
                     loop
@@ -386,53 +323,116 @@ const Home = (props) => {
                   <span>Enrichment Tool</span>
                   <br></br>
                 </span>
-                <span className="home-text099 text-2 text-1">
+                <span className="home-text089 text-2 text-1">
                   Only the setup requires a little bit collaboration After that
                   it is a smooth way of getting new leads into your CRM
                 </span>
               </div>
-              <div className="home-container069">
-                <div className="home-container070">
-                  <div className="home-container071"></div>
+              <div className="home-container055">
+                <div className="home-container056">
+                  <div className="home-container057"></div>
                   <span className="label-1">02</span>
                 </div>
-                <div className="home-container072">
+                <div className="home-container058">
                   <span className="ueberschrift-1">
                     <span>Automated reach out</span>
                     <br></br>
                     <span>on a daily basis</span>
                   </span>
                 </div>
-                <div className="home-container073"></div>
-                <div className="home-container074">
-                  <span className="home-text105 text-2">
+                <div className="home-container059"></div>
+                <div className="home-container060">
+                  <span className="home-text095 text-2">
                     <span>For outbound sales we help you with an </span>
                     <span>automated send-out strategy that uses </span>
                     <span>AI to get better delivery rates</span>
                   </span>
                 </div>
               </div>
-              <div className="home-container075">
-                <div className="home-container076">
-                  <div className="home-container077"></div>
+              <div className="home-container061">
+                <div className="home-container062">
+                  <div className="home-container063"></div>
                   <span className="label-1">03</span>
                 </div>
-                <div className="home-container078">
+                <div className="home-container064">
                   <span className="ueberschrift-1">
                     <span>New high value leads</span>
                     <br></br>
                     <span>every week</span>
                   </span>
                 </div>
-                <div className="home-container079"></div>
-                <div className="home-container080">
-                  <span className="home-text114 text-2">
+                <div className="home-container065"></div>
+                <div className="home-container066">
+                  <span className="home-text104 text-2">
                     <span>Only the setup requires a little bit </span>
                     <span>collaboration After that it is a smooth </span>
                     <span>way of getting new leads into your CRM</span>
                   </span>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+        <div className="home-container067 border-b">
+          <div className="home-container068">
+            <div className="home-container069">
+              <img alt="image" src="/img_1.svg" className="home-image1" />
+            </div>
+            <div className="home-container070">
+              <div className="home-container071">
+                <span className="home-text108 sub-titel-1">- ABOUT US</span>
+                <span className="titel-2">About Up2Data</span>
+                <span className="text-1">
+                  <span>
+                    After thousands of Sales deals in different stages of
+                    companies, our mindset and our tools help companies sales
+                    teams to grow more scalable
+                  </span>
+                  <br></br>
+                </span>
+              </div>
+              <div className="home-container072">
+                <div className="home-container073">
+                  <div className="home-container074">
+                    <div className="home-container075">
+                      <svg viewBox="0 0 1024 1024" className="home-icon04">
+                        <path d="M954.857 323.429c0 14.286-5.714 28.571-16 38.857l-491.429 491.429c-10.286 10.286-24.571 16-38.857 16s-28.571-5.714-38.857-16l-284.571-284.571c-10.286-10.286-16-24.571-16-38.857s5.714-28.571 16-38.857l77.714-77.714c10.286-10.286 24.571-16 38.857-16s28.571 5.714 38.857 16l168 168.571 374.857-375.429c10.286-10.286 24.571-16 38.857-16s28.571 5.714 38.857 16l77.714 77.714c10.286 10.286 16 24.571 16 38.857z"></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div className="home-container076">
+                    <span className="ueberschrift-3">Our Mission</span>
+                    <span className="text-2">
+                      Getting the most out of your Sales department by having
+                      the right tools at the right time
+                    </span>
+                  </div>
+                </div>
+                <div className="home-container077">
+                  <div className="home-container078">
+                    <div className="home-container079">
+                      <svg viewBox="0 0 1024 1024" className="home-icon06">
+                        <path d="M954.857 323.429c0 14.286-5.714 28.571-16 38.857l-491.429 491.429c-10.286 10.286-24.571 16-38.857 16s-28.571-5.714-38.857-16l-284.571-284.571c-10.286-10.286-16-24.571-16-38.857s5.714-28.571 16-38.857l77.714-77.714c10.286-10.286 24.571-16 38.857-16s28.571 5.714 38.857 16l168 168.571 374.857-375.429c10.286-10.286 24.571-16 38.857-16s28.571 5.714 38.857 16l77.714 77.714c10.286 10.286 16 24.571 16 38.857z"></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div className="home-container080">
+                    <span className="ueberschrift-3">Our Vision</span>
+                    <span className="text-2">
+                      Connecting the world of Sales to grow collaboratively in
+                      an environment where everyone benefits
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <Link to="/contact-us" className="home-navlink">
+                <div className="home-button-blue button-blue">
+                  <span className="text-1">Get Started</span>
+                  <svg viewBox="0 0 1024 1024" className="home-icon08">
+                    <path d="M481.835 243.499l225.835 225.835h-494.336c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h494.336l-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l298.667-298.667c3.925-3.925 7.083-8.619 9.259-13.824 4.309-10.453 4.309-22.229 0-32.683-2.091-5.035-5.163-9.728-9.259-13.824l-298.667-298.667c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path>
+                  </svg>
+                </div>
+              </Link>
             </div>
           </div>
         </div>
@@ -805,10 +805,14 @@ const Home = (props) => {
             </div>
             <div className="home-container159">
               <div className="home-container160">
-                <span className="home-text178">Enter your email</span>
+                <input
+                  type="text"
+                  placeholder="Your full name"
+                  className="home-textinput input"
+                />
               </div>
               <div className="home-container161">
-                <span className="home-text179">Subscribe</span>
+                <span className="home-text178">Subscribe</span>
                 <svg viewBox="0 0 1024 1024" className="home-icon30">
                   <path d="M481.835 243.499l225.835 225.835h-494.336c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h494.336l-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l298.667-298.667c3.925-3.925 7.083-8.619 9.259-13.824 4.309-10.453 4.309-22.229 0-32.683-2.091-5.035-5.163-9.728-9.259-13.824l-298.667-298.667c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path>
                 </svg>

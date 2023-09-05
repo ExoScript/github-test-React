@@ -167,15 +167,15 @@
   text-decoration: none;
   background-color: rgba(104, 64, 165, 0.1);
 }
-.menu-bar-text05 {
-  font-style: normal;
-  font-weight: 600;
-}
 .menu-bar-navlink04 {
   display: contents;
 }
 .menu-bar-container08 {
   text-decoration: none;
+}
+.menu-bar-text07 {
+  font-style: normal;
+  font-weight: 600;
 }
 .menu-bar-navlink05 {
   display: contents;

@@ -100,7 +100,7 @@ const MenuBottomComponent = (props) => {
                 {props.text4}
               </Link>
               <Link
-                to="/product-22"
+                to="/product-2"
                 className="menu-bottom-component-navlink3 text-2"
               >
                 {props.text5}
@@ -135,16 +135,13 @@ const MenuBottomComponent = (props) => {
             </div>
             <div className="menu-bottom-component-container14">
               <span className="ueberschrift-2">{props.text16}</span>
-              <span className="text-2">
-                <span className="">(702) 555-0122</span>
-                <br className=""></br>
-                <span className="">(702) 555-0122</span>
-              </span>
               <span className="text-2">{props.text17}</span>
               <span className="text-2">
-                <span className="">3891 Ranchview Dr. Richardson,</span>
+                <span className="">Up2Data GmbH</span>
                 <br className=""></br>
-                <span className="">California 62639</span>
+                <span className="">Prinz-Ludwig-Straße 4</span>
+                <br className=""></br>
+                <span className="">80333 München</span>
               </span>
             </div>
           </div>
@@ -160,19 +157,17 @@ const MenuBottomComponent = (props) => {
 }
 
 MenuBottomComponent.defaultProps = {
-  text5: 'Product - 2',
+  text5: 'Near Cloud',
   text9: 'SUPPORT',
   text3: 'Home',
-  text15: 'Partners',
   text6: 'About us',
-  text4: 'Product - 1',
-  text14: 'Refund Policy',
+  text4: 'Mail Cloud',
   rootClassName: '',
   text12: 'Privacy Policy',
   image_alt: 'image',
   text13: 'Imprint',
   text16: 'Contact info',
-  text17: 'Up2Data@example.com',
+  text17: 'info@up2data.io',
   text: '© 2023 Up2Data. All Rights Reserved',
   text2: 'EXPLORE',
   text1: 'FOLLOW US',
@@ -184,10 +179,8 @@ MenuBottomComponent.propTypes = {
   text5: PropTypes.string,
   text9: PropTypes.string,
   text3: PropTypes.string,
-  text15: PropTypes.string,
   text6: PropTypes.string,
   text4: PropTypes.string,
-  text14: PropTypes.string,
   rootClassName: PropTypes.string,
   text12: PropTypes.string,
   image_alt: PropTypes.string,

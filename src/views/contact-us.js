@@ -23,7 +23,7 @@ const ContactUs = (props) => {
                   <div className="contact-us-container07">
                     <span className="text-2">Contact us</span>
                   </div>
-                  <span className="titel-1 contact-us-text01">
+                  <span className="contact-us-text01 titel-1">
                     We are happy to discuss your growth with you!
                   </span>
                 </div>
@@ -93,52 +93,40 @@ const ContactUs = (props) => {
                     <span className="ueberschrift-2">support@up2data.io</span>
                   </div>
                 </div>
-                <div className="contact-us-container22">
-                  <div className="contact-us-container23 gradient">
-                    <svg viewBox="0 0 1024 1024" className="contact-us-icon4">
-                      <path d="M512 490q44 0 75-31t31-75-31-75-75-31-75 31-31 75 31 75 75 31zM512 86q124 0 211 87t87 211q0 62-31 142t-75 150-87 131-73 97l-32 34q-12-14-32-37t-72-92-91-134-71-147-32-144q0-124 87-211t211-87z"></path>
-                    </svg>
-                  </div>
-                  <div className="contact-us-container24">
-                    <span className="ueberschrift-2">
-                      3891 Ranchview Dr. Richardson, California 62639
-                    </span>
-                  </div>
-                </div>
               </div>
             </div>
-            <div className="contact-us-container25">
-              <div className="contact-us-container26">
+            <div className="contact-us-container22">
+              <div className="contact-us-container23">
                 <input
                   type="text"
                   placeholder="Your full name"
                   className="contact-us-textinput input"
                 />
               </div>
-              <div className="contact-us-container27">
+              <div className="contact-us-container24">
                 <input
                   type="text"
                   placeholder="E-mail address"
                   className="contact-us-textinput1 input"
                 />
               </div>
-              <div className="contact-us-container28">
+              <div className="contact-us-container25">
                 <input
                   type="text"
                   placeholder="Phone number"
                   className="contact-us-textinput2 input"
                 />
               </div>
-              <div className="contact-us-container29">
+              <div className="contact-us-container26">
                 <input
                   type="text"
                   placeholder="Type Your Message Here"
                   className="contact-us-textinput3 input"
                 />
               </div>
-              <div className="contact-us-container30 gradient box-shadow">
-                <span className="contact-us-text21">Send Message</span>
-                <svg viewBox="0 0 1024 1024" className="contact-us-icon6">
+              <div className="contact-us-container27 gradient box-shadow">
+                <span className="contact-us-text20">Send Message</span>
+                <svg viewBox="0 0 1024 1024" className="contact-us-icon4">
                   <path d="M481.835 243.499l225.835 225.835h-494.336c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h494.336l-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l298.667-298.667c3.925-3.925 7.083-8.619 9.259-13.824 4.309-10.453 4.309-22.229 0-32.683-2.091-5.035-5.163-9.728-9.259-13.824l-298.667-298.667c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path>
                 </svg>
               </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+import { Player } from '@lottiefiles/react-lottie-player'
 import { Helmet } from 'react-helmet'
 
 import MenuBar from '../components/menu-bar'
@@ -356,15 +357,22 @@ const Product1 = (props) => {
             <div className="product1-container066">
               <div className="product1-container067">
                 <div className="product1-container068">
-                  <div className="product1-container069"></div>
+                  <Player
+                    src="https://lottie.host/71ed10da-8877-4337-a4ee-b7fb297a2996/X6gtxb1udb.json"
+                    loop
+                    speed="1"
+                    autoplay
+                    background="transparent"
+                    className="product1-lottie-node"
+                  ></Player>
                 </div>
-                <div className="product1-container070">
+                <div className="product1-container069">
                   <span className="product1-text50 ueberschrift-1">
                     Onboarding
                   </span>
                 </div>
-                <div className="product1-container071"></div>
-                <div className="product1-container072">
+                <div className="product1-container070"></div>
+                <div className="product1-container071">
                   <span className="product1-text51 text-2">
                     In the Onboarding we will discuss the blacklisting, the ICP,
                     the buyer persona, the sequences, and the number of
@@ -377,17 +385,24 @@ const Product1 = (props) => {
                   </span>
                 </div>
               </div>
-              <div className="product1-container073">
-                <div className="product1-container074">
-                  <div className="product1-container075"></div>
+              <div className="product1-container072">
+                <div className="product1-container073">
+                  <Player
+                    src="https://lottie.host/7d8bcce8-da90-45b1-826b-7a1fe461ebb6/0BBnNjXnEa.json"
+                    loop
+                    speed="1"
+                    autoplay
+                    background="transparent"
+                    className="product1-lottie-node1"
+                  ></Player>
                 </div>
-                <div className="product1-container076">
+                <div className="product1-container074">
                   <span className="product1-text52 ueberschrift-1">
                     Outbound
                   </span>
                 </div>
-                <div className="product1-container077"></div>
-                <div className="product1-container078">
+                <div className="product1-container075"></div>
+                <div className="product1-container076">
                   <span className="product1-text53 text-2">
                     After that we are good to go and the outbound campaigns can
                     be launched. You will get then deals directly in your inbox
@@ -399,17 +414,24 @@ const Product1 = (props) => {
                   </span>
                 </div>
               </div>
-              <div className="product1-container079">
-                <div className="product1-container080">
-                  <div className="product1-container081"></div>
+              <div className="product1-container077">
+                <div className="product1-container078">
+                  <Player
+                    src="https://lottie.host/4bdf75d6-b59f-466a-b045-c92e622ba042/0pQ77iSRGu.json"
+                    loop
+                    speed="1"
+                    autoplay
+                    background="transparent"
+                    className="product1-lottie-node2"
+                  ></Player>
                 </div>
-                <div className="product1-container082">
+                <div className="product1-container079">
                   <span className="product1-text54 ueberschrift-1">
                     Monitoring
                   </span>
                 </div>
-                <div className="product1-container083"></div>
-                <div className="product1-container084">
+                <div className="product1-container080"></div>
+                <div className="product1-container081">
                   <span className="product1-text55 text-2">
                     On a weekly basis we are discussing with you how to increase
                     the success further to get you the highest ROI possible
@@ -419,19 +441,19 @@ const Product1 = (props) => {
             </div>
           </div>
         </div>
-        <div className="product1-container085">
-          <div className="product1-container086">
-            <div className="product1-container087">
-              <div className="product1-container088">
-                <div className="product1-container089">
+        <div className="product1-container082">
+          <div className="product1-container083">
+            <div className="product1-container084">
+              <div className="product1-container085">
+                <div className="product1-container086">
                   <span className="product1-text56 sub-titel-1">
                     Blog and case study
                   </span>
                   <span className="titel-2">Our latest case study</span>
                 </div>
               </div>
-              <div className="product1-container090">
-                <div className="product1-container091">
+              <div className="product1-container087">
+                <div className="product1-container088">
                   <span className="product1-text58">Read All Blog</span>
                   <svg viewBox="0 0 1024 1024" className="product1-icon22">
                     <path d="M481.835 243.499l225.835 225.835h-494.336c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h494.336l-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l298.667-298.667c3.925-3.925 7.083-8.619 9.259-13.824 4.309-10.453 4.309-22.229 0-32.683-2.091-5.035-5.163-9.728-9.259-13.824l-298.667-298.667c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path>
@@ -439,23 +461,23 @@ const Product1 = (props) => {
                 </div>
               </div>
             </div>
-            <div className="product1-container092">
-              <div className="product1-container093">
-                <div className="product1-container094"></div>
-                <div className="product1-container095">
-                  <div className="product1-container096">
-                    <div className="product1-container097">
+            <div className="product1-container089">
+              <div className="product1-container090">
+                <div className="product1-container091"></div>
+                <div className="product1-container092">
+                  <div className="product1-container093">
+                    <div className="product1-container094">
                       <span className="product1-text59">IT Support</span>
                       <span className="product1-text60">June 9, 2022</span>
                     </div>
-                    <div className="product1-container098"></div>
+                    <div className="product1-container095"></div>
                   </div>
-                  <div className="product1-container099">
+                  <div className="product1-container096">
                     <span className="product1-text61">
                       Being different in Sales is crucial for your success
                     </span>
                   </div>
-                  <div className="product1-container100">
+                  <div className="product1-container097">
                     <span className="product1-text62">Read More</span>
                     <svg viewBox="0 0 1024 1024" className="product1-icon24">
                       <path d="M481.835 243.499l225.835 225.835h-494.336c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h494.336l-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l298.667-298.667c3.925-3.925 7.083-8.619 9.259-13.824 4.309-10.453 4.309-22.229 0-32.683-2.091-5.035-5.163-9.728-9.259-13.824l-298.667-298.667c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path>
@@ -463,24 +485,24 @@ const Product1 = (props) => {
                   </div>
                 </div>
               </div>
-              <div className="product1-container101">
-                <div className="product1-container102"></div>
-                <div className="product1-container103">
-                  <div className="product1-container104">
-                    <div className="product1-container105">
+              <div className="product1-container098">
+                <div className="product1-container099"></div>
+                <div className="product1-container100">
+                  <div className="product1-container101">
+                    <div className="product1-container102">
                       <span className="product1-text63">
                         Marketing Consulting
                       </span>
                       <span className="product1-text64">June 9, 2022</span>
                     </div>
-                    <div className="product1-container106"></div>
+                    <div className="product1-container103"></div>
                   </div>
-                  <div className="product1-container107">
+                  <div className="product1-container104">
                     <span className="product1-text65">
                       Adding new ways of outreach can boost your growth
                     </span>
                   </div>
-                  <div className="product1-container108">
+                  <div className="product1-container105">
                     <span className="product1-text66">Read More</span>
                     <svg viewBox="0 0 1024 1024" className="product1-icon26">
                       <path d="M481.835 243.499l225.835 225.835h-494.336c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h494.336l-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l298.667-298.667c3.925-3.925 7.083-8.619 9.259-13.824 4.309-10.453 4.309-22.229 0-32.683-2.091-5.035-5.163-9.728-9.259-13.824l-298.667-298.667c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path>
@@ -488,19 +510,19 @@ const Product1 = (props) => {
                   </div>
                 </div>
               </div>
-              <div className="product1-container109">
-                <div className="product1-container110"></div>
-                <div className="product1-container111">
-                  <div className="product1-container112">
-                    <div className="product1-container113">
+              <div className="product1-container106">
+                <div className="product1-container107"></div>
+                <div className="product1-container108">
+                  <div className="product1-container109">
+                    <div className="product1-container110">
                       <span className="product1-text67">
                         Business Consulting
                       </span>
                       <span className="product1-text68">June 9, 2022</span>
                     </div>
-                    <div className="product1-container114"></div>
+                    <div className="product1-container111"></div>
                   </div>
-                  <div className="product1-container115">
+                  <div className="product1-container112">
                     <span className="product1-text69">
                       The right approach at the right time - how outreach can
                       change
@@ -511,7 +533,7 @@ const Product1 = (props) => {
                       />
                     </span>
                   </div>
-                  <div className="product1-container116">
+                  <div className="product1-container113">
                     <span className="product1-text70">Read More</span>
                     <svg viewBox="0 0 1024 1024" className="product1-icon28">
                       <path d="M481.835 243.499l225.835 225.835h-494.336c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h494.336l-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l298.667-298.667c3.925-3.925 7.083-8.619 9.259-13.824 4.309-10.453 4.309-22.229 0-32.683-2.091-5.035-5.163-9.728-9.259-13.824l-298.667-298.667c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path>
@@ -522,9 +544,9 @@ const Product1 = (props) => {
             </div>
           </div>
         </div>
-        <div className="product1-container117">
-          <div className="product1-container118">
-            <div className="product1-container119">
+        <div className="product1-container114">
+          <div className="product1-container115">
+            <div className="product1-container116">
               <span className="titel-2">Subscribe Our Newsletter</span>
               <span className="product1-text72 text-1">
                 <span>
@@ -535,12 +557,16 @@ const Product1 = (props) => {
                 <span>and consulting tips delivered to your inbox</span>
               </span>
             </div>
-            <div className="product1-container120">
-              <div className="product1-container121">
-                <span className="product1-text76">Enter your email</span>
+            <div className="product1-container117">
+              <div className="product1-container118">
+                <input
+                  type="text"
+                  placeholder="Your full name"
+                  className="product1-textinput input"
+                />
               </div>
-              <div className="product1-container122">
-                <span className="product1-text77">Subscribe</span>
+              <div className="product1-container119">
+                <span className="product1-text76">Subscribe</span>
                 <svg viewBox="0 0 1024 1024" className="product1-icon30">
                   <path d="M481.835 243.499l225.835 225.835h-494.336c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h494.336l-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l298.667-298.667c3.925-3.925 7.083-8.619 9.259-13.824 4.309-10.453 4.309-22.229 0-32.683-2.091-5.035-5.163-9.728-9.259-13.824l-298.667-298.667c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path>
                 </svg>
