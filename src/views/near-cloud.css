@@ -50,6 +50,7 @@
 .near-cloud-container005 {
   color: var(--dl-color-gray-text);
   display: flex;
+  opacity: 0.5;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
   align-items: flex-start;
   padding-top: 5px;
