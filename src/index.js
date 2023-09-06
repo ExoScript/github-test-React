@@ -29,7 +29,7 @@ const App = () => {
         <Route component={NearCloud} exact path="/near-cloud" />
         <Route component={AboutUs} exact path="/about-us" />
         <Route component={ComponentsSandbox} exact path="/components-sandbox" />
-        <Route component={PrivacyPolicy} exact path="/privacy-policy" />
+        <Route component={PrivacyPolicy} exact path="/privacy-policy"/>
       </div>
     </Router>
   )
