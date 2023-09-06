@@ -14,7 +14,6 @@ const MenuBar = (props) => {
   const [menu4, setMenu4] = useState(props.menu4 || false)
 
 
-
   return (
     <div className={`menu-bar-menu-bar ${props.rootClassName} `}>
       <div className="menu-bar-container">
@@ -42,7 +41,7 @@ const MenuBar = (props) => {
             >
               <div
                 data-thq="thq-dropdown-toggle"
-                className="menu-bar-btn-disable"
+                className={menu2 ? "menu-bar-btn-enable" : "menu-bar-btn-disable"}
               >
                 <span className="">{props.text31}</span>
                 <div
@@ -164,7 +163,7 @@ const MenuBar = (props) => {
               </ul>
             </div>
             <Link to="/about-us" className="menu-bar-navlink08">
-              <div className= {menu3 ? "menu-bar-btn-enable" : "menu-bar-btn-disable"}>
+              <div className={menu3 ? "menu-bar-btn-enable" : "menu-bar-btn-disable"}>
                 <span className="">{props.text1}</span>
               </div>
             </Link>

@@ -19,7 +19,7 @@ const Home = (props) => {
       </Helmet>
       <div className="home-container001">
         <div className="home-container002">
-          <MenuBar></MenuBar>
+          <MenuBar menu1={true}></MenuBar>
           <div className="home-container003">
             <div className="home-container004">
               <div className="home-container005">

@@ -17,7 +17,7 @@ const Product2 = (props) => {
       </Helmet>
       <div className="product2-container001">
         <div className="product2-container002">
-          <MenuBar></MenuBar>
+          <MenuBar menu2={true}></MenuBar>
           <div className="product2-container003">
             <div className="product2-container004">
               <div className="product2-container005">
