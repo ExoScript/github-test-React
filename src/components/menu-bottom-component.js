@@ -30,7 +30,7 @@ const MenuBottomComponent = (props) => {
               </span>
             </div>
             <div className="menu-bottom-component-container05">
-              <span className="ueberschrift-3">{props.text1}</span>
+              <span className="ueberschrift-3 text-1">{props.text1}</span>
               <div className="menu-bottom-component-container06">
                 <div className="menu-bottom-component-container07">
                   <svg
