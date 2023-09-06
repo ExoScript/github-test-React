@@ -18,7 +18,7 @@ const MailCloud = (props) => {
       </Helmet>
       <div className="mail-cloud-container001">
         <div className="mail-cloud-container002">
-          <MenuBar></MenuBar>
+          <MenuBar menu2 ={true}></MenuBar>
           <div className="mail-cloud-container003">
             <div className="mail-cloud-container004">
               <div className="mail-cloud-container005">

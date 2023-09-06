@@ -29,7 +29,7 @@ const App = () => {
         <Route component={AboutUs} exact path="/about-us" />
         <Route component={ComponentsSandbox} exact path="/components-sandbox" />
         <Route component={PrivacyPolicy} exact path="/privacy-policy" />
-        <Route component={Error} path="**" />
+        {/* <Route component={Error} path="**" /> */}
       </div>
     </Router>
   )
