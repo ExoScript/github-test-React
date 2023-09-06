@@ -169,7 +169,6 @@ const Home = (props) => {
                       speed="1"
                       autoplay
                       background="transparent"
-                      className="home-lottie-node3"
                     ></Player>
                   </div>
                 </div>
