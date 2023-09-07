@@ -41,8 +41,3 @@
     height: 55px;
   }
 }
-@media(max-width: 1280px) {
-  .contact-us-mini-form-component-contact-us-mini-form-component {
-    width: 100%;
-  }
-}

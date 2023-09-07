@@ -389,8 +389,3 @@
     line-height: 45px;
   }
 }
-@media(max-width: 1280px) {
-  .privacy-policy-container05 {
-    width: 530px;
-  }
-}

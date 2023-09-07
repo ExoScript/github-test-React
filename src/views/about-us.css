@@ -892,35 +892,3 @@
     line-height: 45px;
   }
 }
-@media(max-width: 1280px) {
-  .about-us-container04 {
-    width: 530px;
-  }
-  .about-us-container06 {
-    width: 100%;
-  }
-  .about-us-text04 {
-    font-size: 18px;
-  }
-  .about-us-text05 {
-    font-size: 18px;
-  }
-  .about-us-text06 {
-    font-size: 18px;
-  }
-  .about-us-text07 {
-    font-size: 18px;
-  }
-  .about-us-text08 {
-    font-size: 18px;
-  }
-  .about-us-text09 {
-    font-size: 18px;
-  }
-  .about-us-text10 {
-    font-size: 18px;
-  }
-  .about-us-text11 {
-    font-size: 18px;
-  }
-}

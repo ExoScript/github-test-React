@@ -17,7 +17,7 @@ const AboutUs = (props) => {
       </Helmet>
       <div className="about-us-container01">
         <div className="about-us-container02">
-          <MenuBar menu3 ={true}></MenuBar>
+          <MenuBar></MenuBar>
           <div className="about-us-container03">
             <div className="about-us-container04">
               <div className="about-us-container05">

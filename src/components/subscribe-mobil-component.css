@@ -1,0 +1,94 @@
+.subscribe-mobil-component-subscribe-mobil-component {
+  flex: 0 0 auto;
+  color: white;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+}
+.subscribe-mobil-component-container {
+  display: flex;
+  align-items: flex-start;
+}
+.subscribe-mobil-component-text {
+  text-align: center;
+}
+.subscribe-mobil-component-text1 {
+  text-align: center;
+}
+.subscribe-mobil-component-container1 {
+  gap: 20px;
+  width: 526px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.subscribe-mobil-component-container2 {
+  gap: 5px;
+  flex: 0 0 auto;
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  padding-left: var(--dl-space-space-p20);
+  border-radius: 35px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.23);
+}
+.subscribe-mobil-component-textinput {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+}
+.subscribe-mobil-component-container3 {
+  gap: 10px;
+  flex: 0 0 auto;
+  color: var(--dl-color-gray-text);
+  width: 100%;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  border-radius: 35px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
+}
+.subscribe-mobil-component-text2 {
+  font-size: 18px;
+  line-height: 22px;
+}
+.subscribe-mobil-component-icon {
+  width: 24px;
+  height: 24px;
+}
+@media(max-width: 479px) {
+  .subscribe-mobil-component-subscribe-mobil-component {
+    gap: 30px;
+    height: auto;
+    align-items: center;
+    padding-top: var(--dl-space-space-p40);
+    padding-left: var(--dl-space-space-p30);
+    padding-right: var(--dl-space-space-p30);
+    flex-direction: column;
+    padding-bottom: var(--dl-space-space-p40);
+    background-size: cover;
+    background-image: url("/rectangle%20166-1500w.png");
+  }
+  .subscribe-mobil-component-container {
+    gap: 10px;
+    align-items: center;
+    flex-direction: column;
+  }
+  .subscribe-mobil-component-text {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .subscribe-mobil-component-container1 {
+    width: 100%;
+  }
+}

@@ -391,32 +391,3 @@
     line-height: 45px;
   }
 }
-@media(max-width: 1280px) {
-  .contact-us-container05 {
-    width: 530px;
-  }
-  .contact-us-text04 {
-    font-size: 18px;
-  }
-  .contact-us-text05 {
-    font-size: 18px;
-  }
-  .contact-us-text06 {
-    font-size: 18px;
-  }
-  .contact-us-text07 {
-    font-size: 18px;
-  }
-  .contact-us-text08 {
-    font-size: 18px;
-  }
-  .contact-us-text09 {
-    font-size: 18px;
-  }
-  .contact-us-text10 {
-    font-size: 18px;
-  }
-  .contact-us-text11 {
-    font-size: 18px;
-  }
-}

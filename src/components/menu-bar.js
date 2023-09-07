@@ -8,12 +8,6 @@ import './menu-bar.css'
 const MenuBar = (props) => {
   const [dropdown_menu, setDropdown_menu] = useState(1)
   const [dorpdown, setDorpdown] = useState(false)
-  const [menu1, setMenu1] = useState(props.menu1 || false)
-  const [menu2, setMenu2] = useState(props.menu2 || false)
-  const [menu3, setMenu3] = useState(props.menu3 || false)
-  const [menu4, setMenu4] = useState(props.menu4 || false)
-
-
   return (
     <div className={`menu-bar-menu-bar ${props.rootClassName} `}>
       <div className="menu-bar-container">
@@ -29,7 +23,7 @@ const MenuBar = (props) => {
           </div>
           <div className="menu-bar-container03">
             <Link to="/" className="menu-bar-navlink01">
-              <div className={menu1 ? "menu-bar-btn-enable" : "menu-bar-btn-disable"}>
+              <div className="menu-bar-btn-enable">
                 <span className="">{props.text}</span>
               </div>
             </Link>
@@ -41,7 +35,7 @@ const MenuBar = (props) => {
             >
               <div
                 data-thq="thq-dropdown-toggle"
-                className={menu2 ? "menu-bar-btn-enable" : "menu-bar-btn-disable"}
+                className="menu-bar-btn-disable"
               >
                 <span className="">{props.text31}</span>
                 <div
@@ -163,12 +157,12 @@ const MenuBar = (props) => {
               </ul>
             </div>
             <Link to="/about-us" className="menu-bar-navlink08">
-              <div className={menu3 ? "menu-bar-btn-enable" : "menu-bar-btn-disable"}>
+              <div className="menu-bar-btn-disable">
                 <span className="">{props.text1}</span>
               </div>
             </Link>
             <Link to="/contact-us" className="menu-bar-navlink09">
-              <div className={menu4 ? "menu-bar-container16 menu-bar-btn-enable" : "menu-bar-container16 menu-bar-btn-disable"}>
+              <div className="menu-bar-container16 menu-bar-btn-disable">
                 <span className="">{props.text2}</span>
               </div>
             </Link>

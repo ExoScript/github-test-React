@@ -203,8 +203,3 @@
     height: 828px;
   }
 }
-@media(max-width: 1280px) {
-  .login-container02 {
-    height: 833px;
-  }
-}

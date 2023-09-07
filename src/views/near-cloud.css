@@ -1212,35 +1212,3 @@
     width: 350px;
   }
 }
-@media(max-width: 1280px) {
-  .near-cloud-container004 {
-    width: 530px;
-  }
-  .near-cloud-container006 {
-    width: 100%;
-  }
-  .near-cloud-text04 {
-    font-size: 18px;
-  }
-  .near-cloud-text05 {
-    font-size: 18px;
-  }
-  .near-cloud-text06 {
-    font-size: 18px;
-  }
-  .near-cloud-text07 {
-    font-size: 18px;
-  }
-  .near-cloud-text08 {
-    font-size: 18px;
-  }
-  .near-cloud-text09 {
-    font-size: 18px;
-  }
-  .near-cloud-text10 {
-    font-size: 18px;
-  }
-  .near-cloud-text11 {
-    font-size: 18px;
-  }
-}

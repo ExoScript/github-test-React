@@ -20,7 +20,7 @@ const Imprint = (props) => {
             <div className="imprint-container04">
               <div className="imprint-container05">
                 <div className="imprint-container06">
-                  <div className="imprint-container07">
+                  <div id="imprint" className="imprint-container07">
                     <span className="imprint-text text-2">Imprint</span>
                   </div>
                   <span className="imprint-text01 titel-1">
