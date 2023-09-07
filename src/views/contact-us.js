@@ -15,7 +15,7 @@ const ContactUs = (props) => {
       </Helmet>
       <div className="contact-us-container01">
         <div className="contact-us-container02">
-          <MenuBar rootClassName="menu-bar-root-class-name"></MenuBar>
+          <MenuBar menu4={true} rootClassName="menu-bar-root-class-name"></MenuBar>
           <div className="contact-us-container03">
             <div className="contact-us-container04">
               <div className="contact-us-container05">

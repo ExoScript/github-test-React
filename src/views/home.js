@@ -23,7 +23,7 @@ const Home = (props) => {
       </Helmet>
       <div className="home-web">
         <div className="home-container001">
-          <MenuBar></MenuBar>
+          <MenuBar menu1={true}></MenuBar>
           <div className="home-container002">
             <div className="home-container003">
               <div className="home-container004">
