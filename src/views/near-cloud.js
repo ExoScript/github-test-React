@@ -20,7 +20,7 @@ const NearCloud = (props) => {
       </Helmet>
       <div className="near-cloud-web">
         <div className="near-cloud-container001">
-          <MenuBar></MenuBar>
+          <MenuBar menu2={true}></MenuBar>
           <div className="near-cloud-container002">
             <div className="near-cloud-container003">
               <div className="near-cloud-container004">
@@ -511,7 +511,7 @@ const NearCloud = (props) => {
       </div>
       <div className="near-cloud-mobil">
         <div className="near-cloud-container103">
-          <MenuBarMobil></MenuBarMobil>
+          <MenuBarMobil menu={2}></MenuBarMobil>
         </div>
         <div className="near-cloud-top">
           <div className="near-cloud-container104">

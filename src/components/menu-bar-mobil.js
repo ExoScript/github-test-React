@@ -7,7 +7,7 @@ import './menu-bar-mobil.css'
 
 const MenuBarMobil = (props) => {
   const [isVisible, setIsVisible] = useState(false)
-  const [menu, setMenu] = useState(0)
+  const [menu, setMenu] = useState(props.menu || 0)
   return (
     <div className="menu-bar-mobil-menu-bar-mobil">
       <div className="menu-bar-mobil-container gradient">

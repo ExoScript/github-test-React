@@ -23,7 +23,7 @@ const Home = (props) => {
       </Helmet>
       <div className="home-web">
         <div className="home-container001">
-          <MenuBar></MenuBar>
+          <MenuBar menu1={true}></MenuBar>
           <div className="home-container002">
             <div className="home-container003">
               <div className="home-container004">
@@ -834,7 +834,7 @@ const Home = (props) => {
         <div className="home-top">
           <div className="home-container164">
             <div className="home-container165">
-              <MenuBarMobil></MenuBarMobil>
+              <MenuBarMobil menu={0}></MenuBarMobil>
             </div>
             <div className="home-container166">
               <div className="home-container167">

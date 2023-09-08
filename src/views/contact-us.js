@@ -18,7 +18,7 @@ const ContactUs = (props) => {
       </Helmet>
       <div className="contact-us-web">
         <div className="contact-us-container01">
-          <MenuBar rootClassName="menu-bar-root-class-name"></MenuBar>
+          <MenuBar menu4={true} rootClassName="menu-bar-root-class-name"></MenuBar>
           <div className="contact-us-container02">
             <div className="contact-us-container03">
               <div className="contact-us-container04">
@@ -127,7 +127,7 @@ const ContactUs = (props) => {
       </div>
       <div className="contact-us-mobil">
         <div className="contact-us-container24">
-          <MenuBarMobil></MenuBarMobil>
+          <MenuBarMobil menu={4}></MenuBarMobil>
         </div>
         <div className="contact-us-top">
           <div className="contact-us-container25">

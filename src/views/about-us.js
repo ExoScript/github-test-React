@@ -20,7 +20,7 @@ const AboutUs = (props) => {
       </Helmet>
       <div className="about-us-web">
         <div className="about-us-container01">
-          <MenuBar></MenuBar>
+          <MenuBar menu3={true}></MenuBar>
           <div className="about-us-container02">
             <div className="about-us-container03">
               <div className="about-us-container04">
@@ -372,7 +372,7 @@ const AboutUs = (props) => {
       </div>
       <div className="about-us-mobil">
         <div className="about-us-container63">
-          <MenuBarMobil></MenuBarMobil>
+          <MenuBarMobil menu={3}></MenuBarMobil>
         </div>
         <div className="about-us-top">
           <div className="about-us-container64">
