@@ -23,7 +23,7 @@ const Home = (props) => {
       </Helmet>
       <div className="home-web">
         <div className="home-container001">
-          <MenuBar menu1={true}></MenuBar>
+          <MenuBar></MenuBar>
           <div className="home-container002">
             <div className="home-container003">
               <div className="home-container004">
@@ -927,7 +927,7 @@ const Home = (props) => {
             <div className="home-container185">
               <span className="home-text197 sub-titel-1">- Our Product</span>
               <span className="home-text198 titel-2-mobil">
-                Getting newcustomers like magic
+                Getting new customers like magic
               </span>
               <span className="home-text199 text-1">
                 Create a seamless integration between yourCRM system and

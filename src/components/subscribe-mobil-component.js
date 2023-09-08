@@ -39,18 +39,18 @@ const SubscribeMobilComponent = (props) => {
 }
 
 SubscribeMobilComponent.defaultProps = {
-  text: 'Subscribe Our Newsletter',
   text1:
     'Create a seamless integration between your CRM system and maintain a constant flow of leads. We help you from defining your ICP to the outreach to thousands of potential customers. ',
-  textinput_placeholder: 'Your full name',
   text2: 'Subscribe',
+  textinput_placeholder: 'Your full name',
+  text: 'Subscribe Our Newsletter',
 }
 
 SubscribeMobilComponent.propTypes = {
-  text: PropTypes.string,
   text1: PropTypes.string,
-  textinput_placeholder: PropTypes.string,
   text2: PropTypes.string,
+  textinput_placeholder: PropTypes.string,
+  text: PropTypes.string,
 }
 
 export default SubscribeMobilComponent

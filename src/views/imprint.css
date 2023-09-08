@@ -8,7 +8,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.imprint-container01 {
+.imprint-web {
   flex: 1;
   width: 100%;
   display: flex;
@@ -16,7 +16,7 @@
   align-items: center;
   flex-direction: column;
 }
-.imprint-container02 {
+.imprint-container01 {
   color: var(--dl-color-gray-white);
   width: 100%;
   height: 430px;
@@ -27,7 +27,7 @@
   background-size: cover;
   background-image: url("/bg/img_9.svg");
 }
-.imprint-container03 {
+.imprint-container02 {
   flex: 1;
   width: 100%;
   height: 0px;
@@ -36,7 +36,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.imprint-container04 {
+.imprint-container03 {
   gap: 40px;
   width: 1360px;
   display: flex;
@@ -46,7 +46,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.imprint-container05 {
+.imprint-container04 {
   gap: 30px;
   width: 100%;
   height: auto;
@@ -54,13 +54,13 @@
   align-items: center;
   flex-direction: column;
 }
-.imprint-container06 {
+.imprint-container05 {
   gap: 20px;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-.imprint-container07 {
+.imprint-container06 {
   color: var(--dl-color-gray-text);
   display: flex;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
@@ -83,7 +83,7 @@
 .imprint-text02 {
   text-align: center;
 }
-.imprint-container08 {
+.imprint-container07 {
   flex: 0 0 auto;
   width: 100%;
   height: 20px;
@@ -96,7 +96,7 @@
   border-left-width: 0px;
   border-right-width: 0px;
 }
-.imprint-container09 {
+.imprint-container08 {
   width: 100%;
   height: auto;
   display: flex;
@@ -105,7 +105,7 @@
   padding-bottom: var(--dl-space-space-p60);
   justify-content: center;
 }
-.imprint-container10 {
+.imprint-container09 {
   gap: 30px;
   flex: 0 0 auto;
   width: 80%;
@@ -145,7 +145,7 @@
 .imprint-text22 {
   text-align: center;
 }
-.imprint-container11 {
+.imprint-container10 {
   width: 100%;
   height: auto;
   display: flex;
@@ -156,7 +156,7 @@
   justify-content: center;
   background-image: url("/rectangle%20166-1500w.png");
 }
-.imprint-container12 {
+.imprint-container11 {
   flex: 0 0 auto;
   width: 80%;
   height: 100%;
@@ -164,7 +164,7 @@
   align-items: flex-start;
   flex-direction: row;
 }
-.imprint-container13 {
+.imprint-container12 {
   gap: 20px;
   flex: 1;
   color: var(--dl-color-gray-white);
@@ -177,7 +177,7 @@
 .imprint-text27 {
   opacity: 0.8;
 }
-.imprint-container14 {
+.imprint-container13 {
   gap: 10px;
   width: 526px;
   height: 100%;
@@ -186,7 +186,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.imprint-container15 {
+.imprint-container14 {
   gap: 5px;
   flex: 0 0 auto;
   color: var(--dl-color-gray-white);
@@ -205,7 +205,7 @@
   height: 100%;
   background-color: transparent;
 }
-.imprint-container16 {
+.imprint-container15 {
   gap: 10px;
   flex: 0 0 auto;
   width: 100%;
@@ -225,17 +225,191 @@
   width: 24px;
   height: 24px;
 }
+.imprint-mobil {
+  flex: 0 0 auto;
+  width: 200px;
+  height: 100px;
+  display: none;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.imprint-container16 {
+  display: flex;
+  position: absolute;
+}
+.imprint-top {
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+.imprint-container17 {
+  display: flex;
+}
+.imprint-container18 {
+  width: 100%;
+  display: flex;
+}
+.imprint-container19 {
+  gap: 20px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.imprint-container20 {
+  color: var(--dl-color-gray-text);
+  display: flex;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  align-items: flex-start;
+  padding-top: 5px;
+  padding-left: 15px;
+  border-radius: 20px;
+  padding-right: 15px;
+  flex-direction: column;
+  padding-bottom: 5px;
+  background-image: linear-gradient(315deg, rgba(255, 255, 255, 0.5) 0.00%,rgb(255, 255, 255) 99.00%);
+}
+.imprint-text32 {
+  font-style: normal;
+  font-weight: 600;
+}
+.imprint-container21 {
+  gap: 20px;
+  color: white;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.imprint-text33 {
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+}
+.imprint-content {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.imprint-container22 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 20px;
+  display: flex;
+  box-shadow: 0px -5px 10px 0px rgba(66, 66, 66, 0.3);
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-border);
+  border-width: 1px;
+  background-color: rgba(243, 243, 243, 0.63);
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+.imprint-container23 {
+  gap: 30px;
+  flex: 0 0 auto;
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.imprint-text35 {
+  text-align: center;
+}
+.imprint-text36 {
+  text-align: center;
+}
+.imprint-text37 {
+  text-align: center;
+}
+.imprint-text43 {
+  text-align: center;
+}
+.imprint-text47 {
+  text-align: center;
+}
+.imprint-text48 {
+  font-style: normal;
+  font-weight: 700;
+}
+.imprint-text51 {
+  text-align: center;
+}
+.imprint-text52 {
+  text-align: center;
+}
+.imprint-text53 {
+  text-align: center;
+}
+.imprint-text57 {
+  text-align: center;
+}
 @media(max-width: 1440px) {
-  .imprint-container04 {
+  .imprint-container03 {
     width: 1110px;
     padding-left: 100px;
     padding-right: 100px;
   }
-  .imprint-container05 {
+  .imprint-container04 {
     width: 891px;
   }
   .imprint-text01 {
     font-size: 30px;
     line-height: 45px;
+  }
+}
+@media(max-width: 479px) {
+  .imprint-web {
+    display: none;
+  }
+  .imprint-mobil {
+    flex: 1;
+    width: 100%;
+    display: flex;
+  }
+  .imprint-container16 {
+    width: 100%;
+  }
+  .imprint-top {
+    height: auto;
+    background-image: url("/bg/img_9.svg");
+    background-repeat: no-repeat;
+    background-position: top bottom;
+  }
+  .imprint-container17 {
+    height: auto;
+    align-items: center;
+    flex-direction: column;
+  }
+  .imprint-container18 {
+    margin-top: 70px;
+    padding-top: var(--dl-space-space-p40);
+    padding-left: var(--dl-space-space-p30);
+    padding-right: var(--dl-space-space-p30);
+    padding-bottom: var(--dl-space-space-p40);
+  }
+  .imprint-container19 {
+    align-items: center;
+  }
+  .imprint-text32 {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .imprint-text33 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .imprint-text34 {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .imprint-content {
+    width: 100%;
+    padding-bottom: 0px;
+  }
+  .imprint-container23 {
+    width: 100%;
+    padding-top: var(--dl-space-space-p60);
+    padding-left: var(--dl-space-space-p30);
+    padding-right: var(--dl-space-space-p30);
+    padding-bottom: var(--dl-space-space-p60);
   }
 }

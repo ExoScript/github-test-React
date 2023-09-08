@@ -6,8 +6,8 @@ import PropTypes from 'prop-types'
 import './menu-bar-mobil.css'
 
 const MenuBarMobil = (props) => {
-  const [menu, setMenu] = useState(0)
   const [isVisible, setIsVisible] = useState(false)
+  const [menu, setMenu] = useState(0)
   return (
     <div className="menu-bar-mobil-menu-bar-mobil">
       <div className="menu-bar-mobil-container gradient">
@@ -115,13 +115,13 @@ const MenuBarMobil = (props) => {
 }
 
 MenuBarMobil.defaultProps = {
-  image_src: '/up2datalogo%20(3)1-200h.png',
   image_alt: 'image',
+  image_src: '/up2datalogo%20(3)1-200h.png',
 }
 
 MenuBarMobil.propTypes = {
-  image_src: PropTypes.string,
   image_alt: PropTypes.string,
+  image_src: PropTypes.string,
 }
 
 export default MenuBarMobil
