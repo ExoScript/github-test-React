@@ -16,8 +16,8 @@ const MailCloud = (props) => {
   return (
     <div className="mail-cloud-container">
       <Helmet>
-        <title>Mail-Cloud - Up2Data</title>
-        <meta property="og:title" content="Mail-Cloud - Up2Data" />
+        <title>Mail-Cloud - Traffls</title>
+        <meta property="og:title" content="Mail-Cloud - Traffls" />
       </Helmet>
       <div className="mail-cloud-web">
         <div className="mail-cloud-container001">

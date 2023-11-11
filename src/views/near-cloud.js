@@ -15,8 +15,8 @@ const NearCloud = (props) => {
   return (
     <div className="near-cloud-container">
       <Helmet>
-        <title>Near-Cloud - Up2Data</title>
-        <meta property="og:title" content="Near-Cloud - Up2Data" />
+        <title>Near-Cloud - Traffls</title>
+        <meta property="og:title" content="Near-Cloud - Traffls" />
       </Helmet>
       <div className="near-cloud-web">
         <div className="near-cloud-container001">

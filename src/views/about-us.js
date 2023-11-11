@@ -15,8 +15,8 @@ const AboutUs = (props) => {
   return (
     <div className="about-us-container">
       <Helmet>
-        <title>About-us - Up2Data</title>
-        <meta property="og:title" content="About-us - Up2Data" />
+        <title>About-us - Traffls</title>
+        <meta property="og:title" content="About-us - Traffls" />
       </Helmet>
       <div className="about-us-web">
         <div className="about-us-container01">
@@ -62,7 +62,7 @@ const AboutUs = (props) => {
             <div className="about-us-container11">
               <div className="about-us-container12">
                 <span className="about-us-text12 sub-titel-1">- About US</span>
-                <span className="titel-2">About Up2Data</span>
+                <span className="titel-2">About Traffls</span>
                 <span className="text-1">
                   <span>
                     We are a team of highly motivated Sales and Tech experts,
@@ -401,7 +401,7 @@ const AboutUs = (props) => {
             <div className="about-us-container71">
               <span className="about-us-text55 sub-titel-1">- About US</span>
               <span className="about-us-text56 titel-2-mobil">
-                About Up2Data
+                About Traffls
               </span>
               <span className="about-us-text57 text-1">
                 We are a team of highly motivated Sales and Tech experts, that

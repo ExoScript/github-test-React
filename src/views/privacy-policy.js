@@ -13,8 +13,8 @@ const PrivacyPolicy = (props) => {
   return (
     <div className="privacy-policy-container">
       <Helmet>
-        <title>Privacy-policy - Up2Data</title>
-        <meta property="og:title" content="Privacy-policy - Up2Data" />
+        <title>Privacy-policy - Traffls</title>
+        <meta property="og:title" content="Privacy-policy - Traffls" />
       </Helmet>
       <div className="privacy-policy-web">
         <div className="privacy-policy-container01">

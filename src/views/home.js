@@ -18,8 +18,8 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>Up2Data</title>
-        <meta property="og:title" content="Up2Data" />
+        <title>Traffls</title>
+        <meta property="og:title" content="Traffls" />
       </Helmet>
       <div className="home-web">
         <div className="home-container001">
@@ -389,7 +389,7 @@ const Home = (props) => {
             <div className="home-container072">
               <div className="home-container073">
                 <span className="home-text108 sub-titel-1">- About us</span>
-                <span className="titel-2">About Up2Data</span>
+                <span className="titel-2">About Traffls</span>
                 <span className="text-1">
                   <span>
                     After thousands of Sales deals in different stages of
@@ -880,7 +880,7 @@ const Home = (props) => {
           <div className="home-container173 border-b">
             <div className="home-container174">
               <span className="home-text190 sub-titel-1">- Our Product</span>
-              <span className="home-text191 titel-2-mobil">About Up2Data</span>
+              <span className="home-text191 titel-2-mobil">About Traffls</span>
               <span className="home-text192 text-1">
                 After thousands of Sales deals in different stages of companies,
                 our mindset and our tools help companies sales teams to grow

@@ -13,8 +13,8 @@ const Imprint = (props) => {
   return (
     <div className="imprint-container">
       <Helmet>
-        <title>Imprint - Up2Data</title>
-        <meta property="og:title" content="Imprint - Up2Data" />
+        <title>Imprint - Traffls</title>
+        <meta property="og:title" content="Imprint - Traffls" />
       </Helmet>
       <div className="imprint-web">
         <div className="imprint-container01">

@@ -8,8 +8,8 @@ const Error = (props) => {
   return (
     <div className="error-container">
       <Helmet>
-        <title>error - Up2Data</title>
-        <meta property="og:title" content="error - Up2Data" />
+        <title>error - Traffls</title>
+        <meta property="og:title" content="error - Traffls" />
       </Helmet>
       <span>Error 404</span>
     </div>

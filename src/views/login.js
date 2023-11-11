@@ -11,8 +11,8 @@ const Login = (props) => {
   return (
     <div className="login-container">
       <Helmet>
-        <title>Login - Up2Data</title>
-        <meta property="og:title" content="Login - Up2Data" />
+        <title>Login - Traffls</title>
+        <meta property="og:title" content="Login - Traffls" />
       </Helmet>
       <div className="login-container01">
         <div className="login-container02">

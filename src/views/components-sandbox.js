@@ -10,8 +10,8 @@ const ComponentsSandbox = (props) => {
   return (
     <div className="components-sandbox-container">
       <Helmet>
-        <title>Components-Sandbox - Up2Data</title>
-        <meta property="og:title" content="Components-Sandbox - Up2Data" />
+        <title>Components-Sandbox - Traffls</title>
+        <meta property="og:title" content="Components-Sandbox - Traffls" />
       </Helmet>
       <div className="components-sandbox-container001">
         <div className="components-sandbox-buttons">

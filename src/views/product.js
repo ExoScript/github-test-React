@@ -10,8 +10,8 @@ const Product = (props) => {
   return (
     <div className="product-container">
       <Helmet>
-        <title>Product - Up2Data</title>
-        <meta property="og:title" content="Product - Up2Data" />
+        <title>Product - Traffls</title>
+        <meta property="og:title" content="Product - Traffls" />
       </Helmet>
       <div className="product-container001">
         <div className="product-container002">

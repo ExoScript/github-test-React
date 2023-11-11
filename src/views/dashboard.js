@@ -10,8 +10,8 @@ const Dashboard = (props) => {
   return (
     <div className="dashboard-container">
       <Helmet>
-        <title>Dashboard - Up2Data</title>
-        <meta property="og:title" content="Dashboard - Up2Data" />
+        <title>Dashboard - Traffls</title>
+        <meta property="og:title" content="Dashboard - Traffls" />
       </Helmet>
       <div className="dashboard-container01">
         <div className="dashboard-container02">
@@ -23,7 +23,7 @@ const Dashboard = (props) => {
                 className="dashboard-image"
               />
             </div>
-            <span className="ueberschrift-2">Up2Data</span>
+            <span className="ueberschrift-2">Traffls</span>
           </div>
           <div className="dashboard-container05">
             <Link to="/about-us" className="dashboard-navlink">

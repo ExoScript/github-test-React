@@ -13,8 +13,8 @@ const ContactUs = (props) => {
   return (
     <div className="contact-us-container">
       <Helmet>
-        <title>Contact-us - Up2Data</title>
-        <meta property="og:title" content="Contact-us - Up2Data" />
+        <title>Contact-us - Traffls</title>
+        <meta property="og:title" content="Contact-us - Traffls" />
       </Helmet>
       <div className="contact-us-web">
         <div className="contact-us-container01">

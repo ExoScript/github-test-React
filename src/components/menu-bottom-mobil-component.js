@@ -82,7 +82,7 @@ const MenuBottomMobilComponent = (props) => {
               {props.text10}
             </span>
             <span className="text-2 menu-bottom-mobil-component-text07">
-              <span>Up2Data GmbH</span>
+              <span>Up2Data2 GmbH</span>
               <br></br>
               <span>Prinz-Ludwig-Straße 4</span>
               <br></br>

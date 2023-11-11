@@ -96,7 +96,7 @@ const MenuBottomComponent = (props) => {
               <span className="ueberschrift-2">{props.text16}</span>
               <span className="text-2">{props.text17}</span>
               <span className="text-2">
-                <span className="">Up2Data GmbH</span>
+                <span className="">Up2Data1 GmbH</span>
                 <br className=""></br>
                 <span className="">Prinz-Ludwig-Straße 4</span>
                 <br className=""></br>
