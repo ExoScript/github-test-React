@@ -154,7 +154,7 @@ const Product = (props) => {
             <div className="product-container029">
               <div className="product-container030">
                 <span className="product-text023 sub-titel-1">ABOUT US</span>
-                <span className="titel-2">About Up2Data</span>
+                <span className="titel-2">About Traffls</span>
                 <span className="text-1">
                   <span>
                     After thousands of Sales deals in different stages of

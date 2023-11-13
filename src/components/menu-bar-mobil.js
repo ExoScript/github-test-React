@@ -21,8 +21,7 @@ const MenuBarMobil = (props) => {
           </div>
         </Link>
         <span className="ueberschrift-2">
-          <span>Up2</span>
-          <span className="menu-bar-mobil-text02">Data</span>
+          <span>Traffls</span>
         </span>
         {!isVisible && (
           <svg
